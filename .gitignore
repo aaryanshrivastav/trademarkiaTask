@@ -2,3 +2,10 @@ venv
 20_newsgroups
 mini_newsgroups
 __pycache__
+# Vector DB
+preprocessing/chroma_store/
+
+# Chroma
+*.sqlite3
+*.parquet
+*.bin
