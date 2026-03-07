@@ -1,0 +1,24 @@
+# Core ML / NLP
+torch==2.2.2
+sentence-transformers==2.7.0
+transformers>=4.39.0
+scikit-learn==1.4.2
+numpy==1.26.4
+umap-learn==0.5.6
+onnxruntime==1.17.3
+
+# Vector Database
+chromadb==0.5.0
+
+# API
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+pydantic==2.7.1
+python-dotenv==1.0.1
+
+# Visualisation
+matplotlib==3.8.4
+seaborn==0.13.2
+
+# Utilities
+tqdm==4.66.4
