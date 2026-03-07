@@ -1,7 +1,35 @@
-venv
-20_newsgroups
-mini_newsgroups
-__pycache__
+# Python
+venv/
+env/
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Datasets
+20_newsgroups/
+mini_newsgroups/
+
+# Generated data files
+preprocessing/data/*.npy
+preprocessing/data/*.json
+preprocessing/data/*.pkl
+
+# Cache
+preprocessing/cache/
+
 # Vector DB
 preprocessing/chroma_store/
 
@@ -9,3 +37,18 @@ preprocessing/chroma_store/
 *.sqlite3
 *.parquet
 *.bin
+
+# Logs
+preprocessing/logs/
+*.log
+
+# Models
+*.pkl
+*.h5
+*.pt
+*.pth
+*.ckpt
+
+# Environment
+.env
+.env.local
