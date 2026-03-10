@@ -7,3 +7,87 @@
 00:45:20 | ERROR    | chromadb.telemetry.product.posthog | Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
 00:45:20 | INFO     | vector_store | Collection 'newsgroups_corpus' ready. Current count: 19997
 00:45:20 | INFO     | __main__ | Collection already contains 19997 documents. Skipping pipeline. Use --reset to re-ingest.
+20:34:27 | INFO     | __main__ | ============================================================
+20:34:27 | INFO     | __main__ | Component 1 Pipeline Starting
+20:34:27 | INFO     | __main__ | ============================================================
+20:34:27 | INFO     | vector_store | Initialising ChromaDB at: C:\Projects\trademarkiaTask\preprocessing\chroma_store
+20:34:29 | ERROR    | chromadb.telemetry.product.posthog | Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+20:34:29 | INFO     | chromadb.api.segment | Collection newsgroups_corpus is not created.
+20:34:29 | ERROR    | chromadb.telemetry.product.posthog | Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+20:34:30 | INFO     | vector_store | Collection 'newsgroups_corpus' ready. Current count: 19997
+20:34:30 | INFO     | __main__ | Collection already contains 19997 documents. Skipping pipeline. Use --reset to re-ingest.
+20:44:33 | INFO     | __main__ | ============================================================
+20:44:33 | INFO     | __main__ | Component 1 Pipeline Starting
+20:44:33 | INFO     | __main__ | ============================================================
+20:44:33 | INFO     | vector_store | Initialising ChromaDB at: C:\Projects\trademarkiaTask\preprocessing\chroma_store
+20:44:33 | ERROR    | chromadb.telemetry.product.posthog | Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+20:44:33 | INFO     | chromadb.api.segment | Collection newsgroups_corpus is not created.
+20:44:33 | ERROR    | chromadb.telemetry.product.posthog | Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+20:44:33 | INFO     | vector_store | Collection 'newsgroups_corpus' ready. Current count: 19997
+20:44:33 | INFO     | __main__ | --reset flag set. Wiping existing collection…
+20:44:33 | WARNING  | vector_store | Resetting collection 'newsgroups_corpus'!
+20:44:59 | ERROR    | chromadb.telemetry.product.posthog | Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+20:44:59 | INFO     | vector_store | Collection reset. Count: 0
+20:44:59 | INFO     | __main__ | Step 1/3 — Loading and preprocessing corpus…
+20:44:59 | INFO     | data_loader | Loading 20 Newsgroups from local directory: C:\Projects\trademarkiaTask\20_newsgroups
+20:44:59 | INFO     | data_loader | Found 20 categories: ['alt.atheism', 'comp.graphics', 'comp.os.ms-windows.misc', 'comp.sys.ibm.pc.hardware', 'comp.sys.mac.hardware', 'comp.windows.x', 'misc.forsale', 'rec.autos', 'rec.motorcycles', 'rec.sport.baseball', 'rec.sport.hockey', 'sci.crypt', 'sci.electronics', 'sci.med', 'sci.space', 'soc.religion.christian', 'talk.politics.guns', 'talk.politics.mideast', 'talk.politics.misc', 'talk.religion.misc']
+20:51:48 | INFO     | data_loader | Preprocessing complete. Kept: 19997 | Discarded: 0 (0.0%) | Total files: 19997
+20:51:48 | INFO     | __main__ |   Done in 408.7s. Documents: 19997
+20:51:48 | INFO     | __main__ | Step 2/3 — Generating embeddings…
+20:51:48 | INFO     | embedder | Loading embedding model: all-MiniLM-L6-v2
+20:51:48 | INFO     | sentence_transformers.SentenceTransformer | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+20:52:04 | INFO     | sentence_transformers.SentenceTransformer | Use pytorch device_name: cpu
+20:52:04 | INFO     | embedder | Model loaded. Output dimension: 384
+20:52:04 | INFO     | embedder | Encoding 19997 texts in batches of 64…
+21:06:22 | INFO     | embedder | Encoding complete. Shape: (19997, 384) | dtype: float32 | Memory: 30.7 MB
+21:06:22 | INFO     | __main__ |   Done in 874.0s. Matrix shape: (19997, 384)
+21:06:22 | INFO     | __main__ |   Embedding integrity checks passed.
+21:06:22 | INFO     | __main__ |   Saving embeddings matrix to C:\Projects\trademarkiaTask\preprocessing\data\embeddings.npy…
+21:06:22 | INFO     | __main__ |   Embedding matrix and metadata saved.
+21:06:22 | INFO     | __main__ | Step 3/3 — Ingesting into ChromaDB…
+21:06:22 | INFO     | vector_store | Ingesting 19997 documents in batches of 500…
+21:06:24 | INFO     | vector_store |   Upserted batch 0–499 / 19997
+21:06:28 | INFO     | vector_store |   Upserted batch 500–999 / 19997
+21:06:29 | INFO     | vector_store |   Upserted batch 1000–1499 / 19997
+21:06:30 | INFO     | vector_store |   Upserted batch 1500–1999 / 19997
+21:06:31 | INFO     | vector_store |   Upserted batch 2000–2499 / 19997
+21:06:32 | INFO     | vector_store |   Upserted batch 2500–2999 / 19997
+21:06:33 | INFO     | vector_store |   Upserted batch 3000–3499 / 19997
+21:06:35 | INFO     | vector_store |   Upserted batch 3500–3999 / 19997
+21:06:36 | INFO     | vector_store |   Upserted batch 4000–4499 / 19997
+21:06:36 | INFO     | vector_store |   Upserted batch 4500–4999 / 19997
+21:06:37 | INFO     | vector_store |   Upserted batch 5000–5499 / 19997
+21:06:38 | INFO     | vector_store |   Upserted batch 5500–5999 / 19997
+21:06:38 | INFO     | vector_store |   Upserted batch 6000–6499 / 19997
+21:06:39 | INFO     | vector_store |   Upserted batch 6500–6999 / 19997
+21:06:40 | INFO     | vector_store |   Upserted batch 7000–7499 / 19997
+21:06:41 | INFO     | vector_store |   Upserted batch 7500–7999 / 19997
+21:06:42 | INFO     | vector_store |   Upserted batch 8000–8499 / 19997
+21:06:42 | INFO     | vector_store |   Upserted batch 8500–8999 / 19997
+21:06:43 | INFO     | vector_store |   Upserted batch 9000–9499 / 19997
+21:06:43 | INFO     | vector_store |   Upserted batch 9500–9999 / 19997
+21:06:44 | INFO     | vector_store |   Upserted batch 10000–10499 / 19997
+21:06:45 | INFO     | vector_store |   Upserted batch 10500–10999 / 19997
+21:06:46 | INFO     | vector_store |   Upserted batch 11000–11499 / 19997
+21:06:46 | INFO     | vector_store |   Upserted batch 11500–11999 / 19997
+21:06:47 | INFO     | vector_store |   Upserted batch 12000–12499 / 19997
+21:06:48 | INFO     | vector_store |   Upserted batch 12500–12999 / 19997
+21:06:49 | INFO     | vector_store |   Upserted batch 13000–13499 / 19997
+21:06:50 | INFO     | vector_store |   Upserted batch 13500–13999 / 19997
+21:06:52 | INFO     | vector_store |   Upserted batch 14000–14499 / 19997
+21:06:53 | INFO     | vector_store |   Upserted batch 14500–14999 / 19997
+21:06:54 | INFO     | vector_store |   Upserted batch 15000–15499 / 19997
+21:06:55 | INFO     | vector_store |   Upserted batch 15500–15999 / 19997
+21:06:56 | INFO     | vector_store |   Upserted batch 16000–16499 / 19997
+21:06:57 | INFO     | vector_store |   Upserted batch 16500–16999 / 19997
+21:06:58 | INFO     | vector_store |   Upserted batch 17000–17499 / 19997
+21:06:59 | INFO     | vector_store |   Upserted batch 17500–17999 / 19997
+21:06:59 | INFO     | vector_store |   Upserted batch 18000–18499 / 19997
+21:07:00 | INFO     | vector_store |   Upserted batch 18500–18999 / 19997
+21:07:01 | INFO     | vector_store |   Upserted batch 19000–19499 / 19997
+21:07:02 | INFO     | vector_store |   Upserted batch 19500–19996 / 19997
+21:07:02 | INFO     | vector_store | Ingestion complete. Collection size: 19997
+21:07:02 | INFO     | __main__ |   Done in 39.7s.
+21:07:02 | INFO     | __main__ | ============================================================
+21:07:02 | INFO     | __main__ | Component 1 Complete. Total time: 1348.5s
+21:07:02 | INFO     | __main__ | ============================================================

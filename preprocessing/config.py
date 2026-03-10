@@ -61,7 +61,7 @@ GMM_RANDOM_STATE    = 42
 # ── Semantic Cache (Component 3) ─────────────────────────────────────────────
 # Similarity threshold: cosine similarity above which a cached result is
 # returned instead of recomputing. Explored empirically in component 3.
-CACHE_SIMILARITY_THRESHOLD = 0.85
+CACHE_SIMILARITY_THRESHOLD = 0.70
 
 # ── Logging ──────────────────────────────────────────────────────────────────
 LOG_LEVEL = "INFO"

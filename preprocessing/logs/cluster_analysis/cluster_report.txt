@@ -1,0 +1,1300 @@
+================================================================================
+CLUSTER SEMANTIC ANALYSIS REPORT
+K=30 clusters | 19997 documents
+================================================================================
+
+────────────────────────────────────────────────────────────────────────────────
+CLUSTER 0  (771 documents as dominant)
+────────────────────────────────────────────────────────────────────────────────
+
+Category distribution (dominant-assigned docs):
+  misc.forsale                              644  (83.5%)  █████████████████████████████████████████
+  sci.electronics                            71  ( 9.2%)  ████
+  rec.autos                                  10  ( 1.3%)  
+  comp.sys.mac.hardware                       9  ( 1.2%)  
+  comp.windows.x                              7  ( 0.9%)  
+  comp.os.ms-windows.misc                     6  ( 0.8%)  
+  comp.graphics                               5  ( 0.6%)  
+  comp.sys.ibm.pc.hardware                    5  ( 0.6%)  
+
+Core documents (highest P(cluster 0)):
+  [1] doc_id=misc.forsale_76423 P=1.0000 cat=misc.forsale
+      xref cantaloupe srv cs cmu edu rec collecting 14349 rec antiques 2343 misc forsale 76423 newsgroups rec collecting rec antiques misc forsale path cantaloupe srv cs cmu edu magnesium club cc cmu edu ne…
+  [2] doc_id=misc.forsale_76106 P=1.0000 cat=misc.forsale
+      xref cantaloupe srv cs cmu edu rec autos 103002 misc forsale 76106 newsgroups labs talk ne forsale rec autos misc forsale ny forsale path cantaloupe srv cs cmu edu magnesium club cc cmu edu news sei c…
+  [3] doc_id=misc.forsale_76120 P=1.0000 cat=misc.forsale
+      xref cantaloupe srv cs cmu edu misc forsale 76120 sci chem 12336 sci engr chem 1330 path cantaloupe srv cs cmu edu rochester udel bogus sura net howland reston ans net noc near net das news harvard ed…
+  [4] doc_id=misc.forsale_76118 P=1.0000 cat=misc.forsale
+      xref cantaloupe srv cs cmu edu misc forsale 76118 pa forsale 2243 newsgroups misc forsale misc forsale computers ny forsale pa forsale nj forsale path cantaloupe srv cs cmu edu crabapple srv cs cmu ed…
+  [5] doc_id=misc.forsale_76116 P=1.0000 cat=misc.forsale
+      xref cantaloupe srv cs cmu edu sci electronics 53962 alt rave 9725 rec music funky 4131 misc forsale 76116 path cantaloupe srv cs cmu edu crabapple srv cs cmu edu fs7 ece cmu edu europa eng gtefsd com…
+
+Boundary documents (highest entropy in cluster 0):
+  [1] doc_id=sci.electronics_53572 H=0.6928 cat=sci.electronics
+      Top-2 cluster probs: C0: 0.514 | C18: 0.486
+      path cantaloupe srv cs cmu edu das news harvard edu ogicse emory gatech hubcap ncrcae toontown craig from craig s williamson newsgroups sci electronics subject re looking for a good spice book message…
+  [2] doc_id=comp.sys.mac.hardware_50442 H=0.6921 cat=comp.sys.mac.hardware
+      Top-2 cluster probs: C0: 0.523 | C18: 0.477
+      xref cantaloupe srv cs cmu edu rec radio swap 5867 rec radio amateur misc 36898 sci electronics 52741 comp sys ibm pc hardware 58874 comp sys ibm pc misc 33576 comp sys mac hardware 50442 comp sys mac…
+  [3] doc_id=sci.electronics_52767 H=0.6910 cat=sci.electronics
+      Top-2 cluster probs: C0: 0.533 | C18: 0.467
+      newsgroups sci electronics path cantaloupe srv cs cmu edu crabapple srv cs cmu edu fs7 ece cmu edu europa eng gtefsd com howland reston ans net wupost uunet psgrain ee und ac za hippo cobust from cobu…
+  [4] doc_id=misc.forsale_75851 H=0.6908 cat=misc.forsale
+      Top-2 cluster probs: C0: 0.534 | C27: 0.466
+      xref cantaloupe srv cs cmu edu pa forsale 2225 misc forsale computers pc clone 7946 misc forsale 75851 path cantaloupe srv cs cmu edu magnesium club cc cmu edu news sei cmu edu cert org netnews upenn…
+  [5] doc_id=misc.forsale_76221 H=0.6884 cat=misc.forsale
+      Top-2 cluster probs: C0: 0.548 | C27: 0.452
+      newsgroups ba market computers ba market misc ba forsale misc forsale path cantaloupe srv cs cmu edu das news harvard edu noc near net howland reston ans net usenet ins cwru edu agate headwall stanfor…
+
+────────────────────────────────────────────────────────────────────────────────
+CLUSTER 1  (858 documents as dominant)
+────────────────────────────────────────────────────────────────────────────────
+
+Category distribution (dominant-assigned docs):
+  talk.politics.misc                        476  (55.5%)  ███████████████████████████
+  talk.politics.guns                        159  (18.5%)  █████████
+  talk.politics.mideast                     119  (13.9%)  ██████
+  rec.autos                                  26  ( 3.0%)  █
+  sci.med                                    21  ( 2.4%)  █
+  talk.religion.misc                         16  ( 1.9%)  
+  sci.crypt                                  13  ( 1.5%)  
+  sci.space                                   9  ( 1.0%)  
+
+Core documents (highest P(cluster 1)):
+  [1] doc_id=talk.politics.misc_178956 P=1.0000 cat=talk.politics.misc
+      xref cantaloupe srv cs cmu edu talk politics misc 178956 alt politics clinton 29458 alt politics bush 18994 alt fan rush limbaugh 23126 alt politics libertarian 6632 newsgroups talk politics misc alt…
+  [2] doc_id=talk.politics.misc_178395 P=1.0000 cat=talk.politics.misc
+      xref cantaloupe srv cs cmu edu alt fan rush limbaugh 22897 talk politics misc 178395 newsgroups ca politics alt fan rush limbaugh talk politics misc path cantaloupe srv cs cmu edu das news harvard edu…
+  [3] doc_id=talk.politics.misc_178380 P=1.0000 cat=talk.politics.misc
+      newsgroups talk politics misc path cantaloupe srv cs cmu edu magnesium club cc cmu edu news sei cmu edu fs7 ece cmu edu europa eng gtefsd com gatech usenet ufl edu usenet cis ufl edu caen uvaarpa murd…
+  [4] doc_id=talk.politics.misc_178382 P=1.0000 cat=talk.politics.misc
+      newsgroups talk politics misc path cantaloupe srv cs cmu edu magnesium club cc cmu edu news sei cmu edu fs7 ece cmu edu europa eng gtefsd com paladin american edu gatech udel bogus sura net darwin sur…
+  [5] doc_id=talk.politics.misc_178383 P=1.0000 cat=talk.politics.misc
+      xref cantaloupe srv cs cmu edu alt politics clinton 29259 alt discrimination 8436 talk politics misc 178383 newsgroups alt politics clinton alt discrimination talk politics misc path cantaloupe srv cs…
+
+Boundary documents (highest entropy in cluster 1):
+  [1] doc_id=talk.politics.guns_53298 H=0.6931 cat=talk.politics.guns
+      Top-2 cluster probs: C1: 0.506 | C25: 0.494
+      xref cantaloupe srv cs cmu edu talk politics guns 53298 alt activism 42364 soc culture usa 13515 newsgroups talk politics guns alt activism soc culture usa path cantaloupe srv cs cmu edu crabapple srv…
+  [2] doc_id=talk.politics.mideast_76145 H=0.6783 cat=talk.politics.mideast
+      Top-2 cluster probs: C1: 0.586 | C13: 0.414
+      newsgroups talk politics mideast path cantaloupe srv cs cmu edu magnesium club cc cmu edu news sei cmu edu cis ohio state edu magnus acs ohio state edu usenet ins cwru edu gatech swrinde sdd hp com sg…
+  [3] doc_id=talk.politics.guns_53348 H=0.6743 cat=talk.politics.guns
+      Top-2 cluster probs: C1: 0.597 | C13: 0.403
+      path cantaloupe srv cs cmu edu crabapple srv cs cmu edu fs7 ece cmu edu europa eng gtefsd com howland reston ans net wupost kuhub cc ukans edu husc news harvard edu scws8 harvard edu kim39 newsgroups…
+  [4] doc_id=talk.politics.guns_55123 H=0.6636 cat=talk.politics.guns
+      Top-2 cluster probs: C1: 0.621 | C25: 0.379
+      path cantaloupe srv cs cmu edu crabapple srv cs cmu edu bb3 andrew cmu edu news sei cmu edu cis ohio state edu zaphod mps ohio state edu menudo uh edu ccsvax sfasu edu f_gautjw from newsgroups talk po…
+  [5] doc_id=talk.politics.guns_54605 H=0.6557 cat=talk.politics.guns
+      Top-2 cluster probs: C1: 0.636 | C13: 0.364
+      newsgroups talk politics guns path cantaloupe srv cs cmu edu das news harvard edu noc near net howland reston ans net ux1 cso uiuc edu uchinews iitmax draughn from mark draughn subject re clinton join…
+
+────────────────────────────────────────────────────────────────────────────────
+CLUSTER 2  (591 documents as dominant)
+────────────────────────────────────────────────────────────────────────────────
+
+Category distribution (dominant-assigned docs):
+  rec.sport.hockey                          565  (95.6%)  ███████████████████████████████████████████████
+  rec.sport.baseball                         22  ( 3.7%)  █
+  sci.med                                     3  ( 0.5%)  
+  rec.motorcycles                             1  ( 0.2%)  
+
+Core documents (highest P(cluster 2)):
+  [1] doc_id=rec.sport.hockey_53956 P=1.0000 cat=rec.sport.hockey
+      newsgroups rec sport hockey path cantaloupe srv cs cmu edu crabapple srv cs cmu edu bb3 andrew cmu edu news sei cmu edu cis ohio state edu sample eng ohio state edu purdue yuma lamar mmb from michael…
+  [2] doc_id=rec.sport.hockey_53846 P=1.0000 cat=rec.sport.hockey
+      newsgroups rec sport hockey path cantaloupe srv cs cmu edu rochester rochester udel bogus sura net howland reston ans net zaphod mps ohio state edu uwm edu linac unixhub slacvx slac stanford edu groge…
+  [3] doc_id=rec.sport.hockey_53820 P=1.0000 cat=rec.sport.hockey
+      newsgroups rec sport hockey path cantaloupe srv cs cmu edu magnesium club cc cmu edu news sei cmu edu cis ohio state edu pacific mps ohio state edu zaphod mps ohio state edu howland reston ans net aga…
+  [4] doc_id=rec.sport.hockey_53823 P=1.0000 cat=rec.sport.hockey
+      newsgroups rec sport hockey path cantaloupe srv cs cmu edu magnesium club cc cmu edu news sei cmu edu cis ohio state edu pacific mps ohio state edu zaphod mps ohio state edu howland reston ans net spo…
+  [5] doc_id=rec.sport.hockey_53827 P=1.0000 cat=rec.sport.hockey
+      path cantaloupe srv cs cmu edu magnesium club cc cmu edu news sei cmu edu cis ohio state edu zaphod mps ohio state edu howland reston ans net sol ctr columbia edu destroyer vela acs oakland edu vela a…
+
+Boundary documents (highest entropy in cluster 2):
+  [1] doc_id=rec.sport.hockey_53534 H=0.6827 cat=rec.sport.hockey
+      Top-2 cluster probs: C2: 0.572 | C24: 0.428
+      newsgroups rec sport hockey path cantaloupe srv cs cmu edu das news harvard edu noc near net howland reston ans net usc cs utexas edu utnut alchemy chem utoronto ca golchowy from gerald olchowy subjec…
+  [2] doc_id=rec.sport.hockey_53655 H=0.6730 cat=rec.sport.hockey
+      Top-2 cluster probs: C2: 0.600 | C24: 0.400
+      newsgroups rec sport hockey path cantaloupe srv cs cmu edu das news harvard edu noc near net uunet spool mu edu uwm edu cs utexas edu utnut alchemy chem utoronto ca golchowy from gerald olchowy subjec…
+  [3] doc_id=rec.sport.hockey_53885 H=0.6620 cat=rec.sport.hockey
+      Top-2 cluster probs: C2: 0.624 | C24: 0.376
+      newsgroups rec sport hockey path cantaloupe srv cs cmu edu magnesium club cc cmu edu news sei cmu edu cis ohio state edu zaphod mps ohio state edu howland reston ans net noc near net black clarku edu…
+  [4] doc_id=rec.sport.hockey_54004 H=0.6511 cat=rec.sport.hockey
+      Top-2 cluster probs: C2: 0.644 | C24: 0.356
+      newsgroups rec sport hockey edm general path cantaloupe srv cs cmu edu das news harvard edu noc near net howland reston ans net usc cs utexas edu uwm edu caen destroyer cs ubc ca unixg ubc ca kakwa uc…
+  [5] doc_id=rec.sport.hockey_54048 H=0.6446 cat=rec.sport.hockey
+      Top-2 cluster probs: C2: 0.654 | C24: 0.346
+      xref cantaloupe srv cs cmu edu rec sport hockey 54048 rec skate 5376 newsgroups rec sport hockey rec skate path cantaloupe srv cs cmu edu magnesium club cc cmu edu news sei cmu edu tmenner from thomas…
+
+────────────────────────────────────────────────────────────────────────────────
+CLUSTER 3  (1161 documents as dominant)
+────────────────────────────────────────────────────────────────────────────────
+
+Category distribution (dominant-assigned docs):
+  soc.religion.christian                    792  (68.2%)  ██████████████████████████████████
+  talk.religion.misc                        253  (21.8%)  ██████████
+  alt.atheism                               109  ( 9.4%)  ████
+  talk.politics.misc                          3  ( 0.3%)  
+  comp.graphics                               1  ( 0.1%)  
+  rec.sport.baseball                          1  ( 0.1%)  
+  sci.space                                   1  ( 0.1%)  
+  talk.politics.guns                          1  ( 0.1%)  
+
+Core documents (highest P(cluster 3)):
+  [1] doc_id=talk.politics.misc_176877 P=1.0000 cat=talk.politics.misc
+      xref cantaloupe srv cs cmu edu talk politics misc 176877 alt sex 110448 soc men 67809 misc legal 59962 path cantaloupe srv cs cmu edu rochester cornell batcomputer caen zaphod mps ohio state edu cs ut…
+  [2] doc_id=soc.religion.christian_21332 P=1.0000 cat=soc.religion.christian
+      path cantaloupe srv cs cmu edu das news harvard edu noc near net howland reston ans net newsserver jvnc net rutgers igor rutgers edu athos rutgers edu christian from mats andtbacka newsgroups soc reli…
+  [3] doc_id=talk.religion.misc_83610 P=1.0000 cat=talk.religion.misc
+      newsgroups talk religion misc path cantaloupe srv cs cmu edu crabapple srv cs cmu edu fs7 ece cmu edu europa eng gtefsd com howland reston ans net agate apple mumbo apple com gallant apple com sandvik…
+  [4] doc_id=soc.religion.christian_21333 P=1.0000 cat=soc.religion.christian
+      path cantaloupe srv cs cmu edu das news harvard edu noc near net howland reston ans net newsserver jvnc net rutgers igor rutgers edu athos rutgers edu christian from bjorn b larsen newsgroups soc reli…
+  [5] doc_id=talk.religion.misc_83608 P=1.0000 cat=talk.religion.misc
+      path cantaloupe srv cs cmu edu crabapple srv cs cmu edu fs7 ece cmu edu europa eng gtefsd com howland reston ans net agate apple apple mumbo apple com gallant apple com sandvik kent apple com user fro…
+
+Boundary documents (highest entropy in cluster 3):
+  [1] doc_id=talk.religion.misc_84265 H=0.7697 cat=talk.religion.misc
+      Top-2 cluster probs: C3: 0.641 | C10: 0.323
+      xref cantaloupe srv cs cmu edu alt magick 10049 alt pagan 29953 talk religion misc 84265 path cantaloupe srv cs cmu edu das news harvard edu noc near net howland reston ans net usc sdd hp com portal c…
+  [2] doc_id=talk.religion.misc_83651 H=0.6915 cat=talk.religion.misc
+      Top-2 cluster probs: C3: 0.528 | C10: 0.472
+      newsgroups talk religion misc path cantaloupe srv cs cmu edu magnesium club cc cmu edu news sei cmu edu cis ohio state edu pacific mps ohio state edu zaphod mps ohio state edu sdd hp com hpscit sc hp…
+  [3] doc_id=talk.religion.misc_83650 H=0.6616 cat=talk.religion.misc
+      Top-2 cluster probs: C3: 0.625 | C10: 0.375
+      newsgroups talk religion misc path cantaloupe srv cs cmu edu crabapple srv cs cmu edu fs7 ece cmu edu europa eng gtefsd com howland reston ans net noc near net uunet mcsun news funet fi cs joensuu fi…
+  [4] doc_id=alt.atheism_53458 H=0.6071 cat=alt.atheism
+      Top-2 cluster probs: C3: 0.704 | C10: 0.296
+      path cantaloupe srv cs cmu edu magnesium club cc cmu edu pitt edu uunet noc near net howland reston ans net zaphod mps ohio state edu uwm edu linac att princeton ernie princeton edu qpliu from q p liu…
+  [5] doc_id=alt.atheism_53068 H=0.6013 cat=alt.atheism
+      Top-2 cluster probs: C3: 0.711 | C10: 0.289
+      newsgroups alt atheism path cantaloupe srv cs cmu edu magnesium club cc cmu edu news sei cmu edu cis ohio state edu pacific mps ohio state edu linac att att out cbnewsj decay from dean kaflowitz subje…
+
+────────────────────────────────────────────────────────────────────────────────
+CLUSTER 4  (930 documents as dominant)
+────────────────────────────────────────────────────────────────────────────────
+
+Category distribution (dominant-assigned docs):
+  rec.autos                                 839  (90.2%)  █████████████████████████████████████████████
+  misc.forsale                               41  ( 4.4%)  ██
+  rec.motorcycles                            29  ( 3.1%)  █
+  sci.electronics                             9  ( 1.0%)  
+  talk.politics.misc                          5  ( 0.5%)  
+  alt.atheism                                 3  ( 0.3%)  
+  comp.sys.mac.hardware                       1  ( 0.1%)  
+  sci.med                                     1  ( 0.1%)  
+
+Core documents (highest P(cluster 4)):
+  [1] doc_id=rec.autos_103410 P=1.0000 cat=rec.autos
+      path cantaloupe srv cs cmu edu rochester udel gatech emory swrinde cs utexas edu zaphod mps ohio state edu saimiri primate wisc edu usenet coe montana edu news u washington edu carson u washington edu…
+  [2] doc_id=rec.autos_102864 P=1.0000 cat=rec.autos
+      newsgroups rec autos path cantaloupe srv cs cmu edu das news harvard edu noc near net uunet walter wind jchen from jason chen subject lh workmanship message id sender jchen wind jason chen nntp postin…
+  [3] doc_id=rec.autos_102867 P=1.0000 cat=rec.autos
+      path cantaloupe srv cs cmu edu das news harvard edu noc near net nic umass edu risky ecs umass edu umaecs sylveste from newsgroups rec autos subject re ultimate awd vehicles message id date 15 apr 93…
+  [4] doc_id=rec.autos_103268 P=1.0000 cat=rec.autos
+      path cantaloupe srv cs cmu edu crabapple srv cs cmu edu bb3 andrew cmu edu news sei cmu edu cis ohio state edu zaphod mps ohio state edu saimiri primate wisc edu ames cronkite cisco com dchan from der…
+  [5] doc_id=rec.autos_102870 P=1.0000 cat=rec.autos
+      newsgroups rec autos path cantaloupe srv cs cmu edu das news harvard edu noc near net howland reston ans net usc cs utexas edu utnut nott cunews freenet carleton ca freenet carleton ca ae015 from stev…
+
+Boundary documents (highest entropy in cluster 4):
+  [1] doc_id=rec.motorcycles_104767 H=0.6914 cat=rec.motorcycles
+      Top-2 cluster probs: C4: 0.530 | C16: 0.470
+      newsgroups rec motorcycles path cantaloupe srv cs cmu edu magnesium club cc cmu edu news sei cmu edu fs7 ece cmu edu europa eng gtefsd com howland reston ans net zaphod mps ohio state edu sdd hp com d…
+  [2] doc_id=rec.autos_103042 H=0.6899 cat=rec.autos
+      Top-2 cluster probs: C4: 0.540 | C16: 0.460
+      path cantaloupe srv cs cmu edu magnesium club cc cmu edu news sei cmu edu fs7 ece cmu edu europa eng gtefsd com howland reston ans net zaphod mps ohio state edu swrinde cs utexas edu utnut utgpu utorv…
+  [3] doc_id=rec.motorcycles_104967 H=0.6864 cat=rec.motorcycles
+      Top-2 cluster probs: C4: 0.558 | C16: 0.442
+      newsgroups rec motorcycles path cantaloupe srv cs cmu edu magnesium club cc cmu edu news sei cmu edu cis ohio state edu zaphod mps ohio state edu howland reston ans net europa eng gtefsd com news ans…
+  [4] doc_id=rec.motorcycles_104737 H=0.6796 cat=rec.motorcycles
+      Top-2 cluster probs: C4: 0.582 | C16: 0.418
+      path cantaloupe srv cs cmu edu das news harvard edu noc near net howland reston ans net zaphod mps ohio state edu menudo uh edu rosie uh edu inde7wv from newsgroups rec motorcycles subject back breake…
+  [5] doc_id=rec.motorcycles_104411 H=0.4408 cat=rec.motorcycles
+      Top-2 cluster probs: C4: 0.839 | C16: 0.161
+      newsgroups rec motorcycles path cantaloupe srv cs cmu edu das news harvard edu noc near net howland reston ans net newsserver jvnc net nj nec com syl behanna from chris behanna subject re what about n…
+
+────────────────────────────────────────────────────────────────────────────────
+CLUSTER 5  (553 documents as dominant)
+────────────────────────────────────────────────────────────────────────────────
+
+Category distribution (dominant-assigned docs):
+  comp.sys.ibm.pc.hardware                  166  (30.0%)  ███████████████
+  comp.sys.mac.hardware                     118  (21.3%)  ██████████
+  comp.graphics                             112  (20.3%)  ██████████
+  comp.os.ms-windows.misc                   106  (19.2%)  █████████
+  sci.electronics                            26  ( 4.7%)  ██
+  misc.forsale                               14  ( 2.5%)  █
+  comp.windows.x                             11  ( 2.0%)  
+
+Core documents (highest P(cluster 5)):
+  [1] doc_id=comp.os.ms-windows.misc_9741 P=1.0000 cat=comp.os.ms-windows.misc
+      path cantaloupe srv cs cmu edu crabapple srv cs cmu edu bb3 andrew cmu edu news sei cmu edu cis ohio state edu zaphod mps ohio state edu uwm edu cs utexas edu uunet destroyer cs ubc ca van bc eosvcr a…
+  [2] doc_id=comp.sys.mac.hardware_50454 P=1.0000 cat=comp.sys.mac.hardware
+      newsgroups comp sys mac hardware path cantaloupe srv cs cmu edu crabapple srv cs cmu edu fs7 ece cmu edu europa eng gtefsd com gatech howland reston ans net wupost uunet haven umd edu darwin sura net…
+  [3] doc_id=comp.sys.mac.hardware_50529 P=1.0000 cat=comp.sys.mac.hardware
+      path cantaloupe srv cs cmu edu das news harvard edu ogicse clark gsnow from gary snow newsgroups comp sys mac hardware subject re question 1024 x 768 on quadra 800 message id date 6 apr 93 21 58 36 gm…
+  [4] doc_id=comp.sys.mac.hardware_50528 P=1.0000 cat=comp.sys.mac.hardware
+      path cantaloupe srv cs cmu edu das news harvard edu ogicse network ucsd edu usc howland reston ans net zaphod mps ohio state edu magnus acs ohio state edu jmilhoan from jt newsgroups comp sys mac hard…
+  [5] doc_id=comp.graphics_38647 P=1.0000 cat=comp.graphics
+      path cantaloupe srv cs cmu edu rochester cornell batcomputer caen uwm edu cs utexas edu bcm bcm tmc edu raymaker from mark raymaker newsgroups comp graphics subject graphics driver standards date 22 a…
+
+Boundary documents (highest entropy in cluster 5):
+  [1] doc_id=comp.graphics_38470 H=0.6007 cat=comp.graphics
+      Top-2 cluster probs: C5: 0.712 | C12: 0.288
+      path cantaloupe srv cs cmu edu das news harvard edu noc near net howland reston ans net agate doc ic ac uk uknet almac dave mikelson from dave mikelson newsgroups comp graphics subject re pcx message…
+  [2] doc_id=comp.graphics_38964 H=0.2524 cat=comp.graphics
+      Top-2 cluster probs: C5: 0.930 | C12: 0.070
+      newsgroups comp graphics path cantaloupe srv cs cmu edu magnesium club cc cmu edu news sei cmu edu fs7 ece cmu edu europa eng gtefsd com howland reston ans net zaphod mps ohio state edu ub galileo cc…
+  [3] doc_id=comp.sys.ibm.pc.hardware_60969 H=0.2056 cat=comp.sys.ibm.pc.hardware
+      Top-2 cluster probs: C5: 0.948 | C14: 0.052
+      path cantaloupe srv cs cmu edu magnesium club cc cmu edu news sei cmu edu cis ohio state edu zaphod mps ohio state edu sdd hp com col hp com denisl from denis lambert newsgroups comp sys ibm pc hardwa…
+  [4] doc_id=comp.sys.mac.hardware_52197 H=0.1670 cat=comp.sys.mac.hardware
+      Top-2 cluster probs: C5: 0.960 | C27: 0.040
+      path cantaloupe srv cs cmu edu das news harvard edu noc near net howland reston ans net zaphod mps ohio state edu uwm edu caen destroyer cs ubc ca unixg ubc ca swiss ucs ubc ca ferch from les ferch ne…
+  [5] doc_id=comp.graphics_39017 H=0.0847 cat=comp.graphics
+      Top-2 cluster probs: C5: 0.983 | C12: 0.017
+      path cantaloupe srv cs cmu edu das news harvard edu noc near net howland reston ans net agate darkstar ucsc edu cats ucsc edu corvus from scott corbin crow newsgroups comp graphics subject mode 13h da…
+
+────────────────────────────────────────────────────────────────────────────────
+CLUSTER 6  (886 documents as dominant)
+────────────────────────────────────────────────────────────────────────────────
+
+Category distribution (dominant-assigned docs):
+  sci.med                                   852  (96.2%)  ████████████████████████████████████████████████
+  sci.space                                  13  ( 1.5%)  
+  sci.electronics                             9  ( 1.0%)  
+  soc.religion.christian                      6  ( 0.7%)  
+  comp.graphics                               2  ( 0.2%)  
+  alt.atheism                                 1  ( 0.1%)  
+  rec.motorcycles                             1  ( 0.1%)  
+  sci.crypt                                   1  ( 0.1%)  
+
+Core documents (highest P(cluster 6)):
+  [1] doc_id=sci.space_61427 P=1.0000 cat=sci.space
+      path cantaloupe srv cs cmu edu magnesium club cc cmu edu news sei cmu edu cis ohio state edu zaphod mps ohio state edu swrinde network ucsd edu news cerf net uwec edu mcelwre from newsgroups sci space…
+  [2] doc_id=sci.med_59270 P=1.0000 cat=sci.med
+      path cantaloupe srv cs cmu edu magnesium club cc cmu edu news sei cmu edu cis ohio state edu zaphod mps ohio state edu howland reston ans net gatech ncar destroyer news itd umich edu 38 86 214 141 in…
+  [3] doc_id=sci.med_59257 P=1.0000 cat=sci.med
+      newsgroups sci med path cantaloupe srv cs cmu edu magnesium club cc cmu edu news sei cmu edu cis ohio state edu zaphod mps ohio state edu usc elroy jpl nasa gov lambda msfc nasa gov avdms8 jpc from j…
+  [4] doc_id=sci.med_59258 P=1.0000 cat=sci.med
+      newsgroups sci med subject calcium deposits on heart valve from john greze path cantaloupe srv cs cmu edu magnesium club cc cmu edu news sei cmu edu cis ohio state edu zaphod mps ohio state edu howlan…
+  [5] doc_id=sci.med_59261 P=1.0000 cat=sci.med
+      newsgroups sci med path cantaloupe srv cs cmu edu magnesium club cc cmu edu news sei cmu edu cis ohio state edu zaphod mps ohio state edu cs utexas edu uunet mnemosyne cs du edu nyx vrao from vinay ra…
+
+Boundary documents (highest entropy in cluster 6):
+  [1] doc_id=sci.med_59114 H=-0.0000 cat=sci.med
+      Top-2 cluster probs: C6: 1.000 | C29: 0.000
+      newsgroups sci med path cantaloupe srv cs cmu edu crabapple srv cs cmu edu bb3 andrew cmu edu news sei cmu edu cis ohio state edu pacific mps ohio state edu zaphod mps ohio state edu saimiri primate w…
+  [2] doc_id=sci.med_59280 H=-0.0000 cat=sci.med
+      Top-2 cluster probs: C6: 1.000 | C29: 0.000
+      newsgroups sci med path cantaloupe srv cs cmu edu rochester udel gatech mailer cc fsu edu fsphy1 physics fsu edu picl25 from picl account_25 subject re use of haldol in elderly references sender organ…
+  [3] doc_id=sci.med_59269 H=-0.0000 cat=sci.med
+      Top-2 cluster probs: C6: 1.000 | C29: 0.000
+      path cantaloupe srv cs cmu edu magnesium club cc cmu edu news sei cmu edu cis ohio state edu zaphod mps ohio state edu cs utexas edu uunet olivea hal com darkstar ucsc edu cats ucsc edu haynes from ji…
+  [4] doc_id=sci.med_59270 H=-0.0000 cat=sci.med
+      Top-2 cluster probs: C6: 1.000 | C29: 0.000
+      path cantaloupe srv cs cmu edu magnesium club cc cmu edu news sei cmu edu cis ohio state edu zaphod mps ohio state edu howland reston ans net gatech ncar destroyer news itd umich edu 38 86 214 141 in…
+  [5] doc_id=sci.med_59271 H=-0.0000 cat=sci.med
+      Top-2 cluster probs: C6: 1.000 | C29: 0.000
+      xref cantaloupe srv cs cmu edu misc consumers 68035 sci med 59271 rec food cooking 65745 sci environment 29725 path cantaloupe srv cs cmu edu magnesium club cc cmu edu news sei cmu edu cis ohio state…
+
+────────────────────────────────────────────────────────────────────────────────
+CLUSTER 7  (937 documents as dominant)
+────────────────────────────────────────────────────────────────────────────────
+
+Category distribution (dominant-assigned docs):
+  comp.os.ms-windows.misc                   417  (44.5%)  ██████████████████████
+  comp.windows.x                            193  (20.6%)  ██████████
+  comp.graphics                              92  ( 9.8%)  ████
+  sci.electronics                            81  ( 8.6%)  ████
+  comp.sys.ibm.pc.hardware                   50  ( 5.3%)  ██
+  comp.sys.mac.hardware                      20  ( 2.1%)  █
+  misc.forsale                               18  ( 1.9%)  
+  rec.autos                                  15  ( 1.6%)  
+
+Core documents (highest P(cluster 7)):
+  [1] doc_id=comp.windows.x_67351 P=1.0000 cat=comp.windows.x
+      path cantaloupe srv cs cmu edu rochester cornell batcomputer caen nigel msen com sdd hp com swrinde gatech enterpoop mit edu internet news mail gateway from thomas tulinsky newsgroups comp windows x s…
+  [2] doc_id=comp.os.ms-windows.misc_9551 P=1.0000 cat=comp.os.ms-windows.misc
+      newsgroups comp os ms windows misc path cantaloupe srv cs cmu edu crabapple srv cs cmu edu bb3 andrew cmu edu news sei cmu edu cis ohio state edu zaphod mps ohio state edu rpi kudla from robert kudla…
+  [3] doc_id=comp.graphics_38849 P=1.0000 cat=comp.graphics
+      xref cantaloupe srv cs cmu edu comp periphs 6580 comp graphics 38849 comp binaries ibm pc wanted 11502 alt graphics pixutils 5380 bit listserv omrscan 21 path cantaloupe srv cs cmu edu rochester galil…
+  [4] doc_id=comp.windows.x_67135 P=1.0000 cat=comp.windows.x
+      newsgroups comp windows x path cantaloupe srv cs cmu edu crabapple srv cs cmu edu bb3 andrew cmu edu news sei cmu edu cis ohio state edu zaphod mps ohio state edu howland reston ans net bogus sura net…
+  [5] doc_id=comp.windows.x_67133 P=1.0000 cat=comp.windows.x
+      xref cantaloupe srv cs cmu edu comp windows x 67133 comp windows x apps 2516 newsgroups comp windows x comp windows x apps path cantaloupe srv cs cmu edu crabapple srv cs cmu edu bb3 andrew cmu edu ne…
+
+Boundary documents (highest entropy in cluster 7):
+  [1] doc_id=comp.os.ms-windows.misc_10838 H=0.6731 cat=comp.os.ms-windows.misc
+      Top-2 cluster probs: C7: 0.600 | C28: 0.400
+      path cantaloupe srv cs cmu edu das news harvard edu noc near net howland reston ans net agate dog ee lbl gov network ucsd edu news cerf net crash filebank george marengo from george marengo newsgroups…
+  [2] doc_id=sci.electronics_53766 H=0.6527 cat=sci.electronics
+      Top-2 cluster probs: C7: 0.641 | C18: 0.359
+      path cantaloupe srv cs cmu edu crabapple srv cs cmu edu bb3 andrew cmu edu andrew cmu edu wm1h from wayne alan martin newsgroups sci electronics subject re dayton hamfest date mon 19 apr 1993 16 39 34…
+  [3] doc_id=sci.electronics_54288 H=0.6492 cat=sci.electronics
+      Top-2 cluster probs: C7: 0.649 | C18: 0.351
+      xref cantaloupe srv cs cmu edu sci electronics 54288 comp lsi 2801 newsgroups sci electronics comp lsi path cantaloupe srv cs cmu edu magnesium club cc cmu edu news sei cmu edu cis ohio state edu zaph…
+  [4] doc_id=comp.os.ms-windows.misc_10017 H=0.6157 cat=comp.os.ms-windows.misc
+      Top-2 cluster probs: C7: 0.694 | C28: 0.306
+      path cantaloupe srv cs cmu edu crabapple srv cs cmu edu bb3 andrew cmu edu news sei cmu edu cis ohio state edu pacific mps ohio state edu zaphod mps ohio state edu howland reston ans net gatech rutger…
+  [5] doc_id=comp.graphics_38660 H=0.5967 cat=comp.graphics
+      Top-2 cluster probs: C7: 0.716 | C18: 0.284
+      path cantaloupe srv cs cmu edu rochester udel wupost howland reston ans net usenet ins cwru edu lerc nasa gov tristero lerc nasa gov fsmarc from marc cooper newsgroups comp graphics subject re marchin…
+
+────────────────────────────────────────────────────────────────────────────────
+CLUSTER 8  (632 documents as dominant)
+────────────────────────────────────────────────────────────────────────────────
+
+Category distribution (dominant-assigned docs):
+  talk.politics.mideast                     541  (85.6%)  ██████████████████████████████████████████
+  talk.politics.misc                         45  ( 7.1%)  ███
+  alt.atheism                                35  ( 5.5%)  ██
+  talk.religion.misc                          7  ( 1.1%)  
+  talk.politics.guns                          3  ( 0.5%)  
+  soc.religion.christian                      1  ( 0.2%)  
+
+Core documents (highest P(cluster 8)):
+  [1] doc_id=talk.politics.mideast_76008 P=1.0000 cat=talk.politics.mideast
+      xref cantaloupe srv cs cmu edu talk politics mideast 76008 soc culture jewish 63112 path cantaloupe srv cs cmu edu crabapple srv cs cmu edu bb3 andrew cmu edu news sei cmu edu fs7 ece cmu edu europa e…
+  [2] doc_id=alt.atheism_53602 P=1.0000 cat=alt.atheism
+      path cantaloupe srv cs cmu edu crabapple srv cs cmu edu fs7 ece cmu edu europa eng gtefsd com howland reston ans net wupost uunet pipex ibmpcug mantis news from mathew newsgroups alt atheism subject r…
+  [3] doc_id=talk.politics.mideast_76298 P=1.0000 cat=talk.politics.mideast
+      newsgroups talk politics mideast path cantaloupe srv cs cmu edu magnesium club cc cmu edu news sei cmu edu cis ohio state edu zaphod mps ohio state edu uwm edu cs utexas edu uunet decwrl pa dec com e2…
+  [4] doc_id=talk.politics.mideast_76299 P=1.0000 cat=talk.politics.mideast
+      newsgroups talk politics mideast path cantaloupe srv cs cmu edu crabapple srv cs cmu edu fs7 ece cmu edu europa eng gtefsd com gatech concert rock taco chess ncsu edu hernlem from brad hernlem subject…
+  [5] doc_id=talk.politics.mideast_76300 P=1.0000 cat=talk.politics.mideast
+      path cantaloupe srv cs cmu edu crabapple srv cs cmu edu fs7 ece cmu edu europa eng gtefsd com gatech swrinde network ucsd edu news service uci edu orion oac uci edu tclock from tim clock subject re th…
+
+Boundary documents (highest entropy in cluster 8):
+  [1] doc_id=talk.politics.mideast_77186 H=0.6769 cat=talk.politics.mideast
+      Top-2 cluster probs: C8: 0.590 | C1: 0.410
+      path cantaloupe srv cs cmu edu das news harvard edu noc near net howland reston ans net darwin sura net haven umd edu cville srv wam umd edu aap from alberto adolfo pinkas newsgroups talk politics mid…
+  [2] doc_id=talk.religion.misc_83492 H=0.5370 cat=talk.religion.misc
+      Top-2 cluster probs: C8: 0.772 | C1: 0.228
+      xref cantaloupe srv cs cmu edu alt conspiracy 21763 alt atheism 53010 alt pagan 29606 talk religion misc 83492 alt politics homosexuality 12253 newsgroups alt conspiracy alt atheism alt pagan talk rel…
+  [3] doc_id=talk.politics.mideast_76265 H=0.3424 cat=talk.politics.mideast
+      Top-2 cluster probs: C8: 0.892 | C1: 0.108
+      newsgroups talk politics mideast path cantaloupe srv cs cmu edu das news harvard edu noc near net uunet brunix dzk from danny keren subject re desertification of the negev message id sender organizati…
+  [4] doc_id=talk.religion.misc_83528 H=0.3134 cat=talk.religion.misc
+      Top-2 cluster probs: C8: 0.905 | C1: 0.095
+      xref cantaloupe srv cs cmu edu alt conspiracy 21781 alt atheism 53054 alt pagan 29628 talk religion misc 83528 newsgroups alt conspiracy alt atheism alt pagan talk religion misc path cantaloupe srv cs…
+  [5] doc_id=talk.politics.mideast_75963 H=0.0514 cat=talk.politics.mideast
+      Top-2 cluster probs: C8: 0.991 | C1: 0.009
+      newsgroups talk politics mideast path from shelomoh s zieniuk subject warsaw ghetto uprising 50th anniversary a visitor s abc message id originator sender reply to organization nysernet date thu 15 ap…
+
+────────────────────────────────────────────────────────────────────────────────
+CLUSTER 9  (998 documents as dominant)
+────────────────────────────────────────────────────────────────────────────────
+
+Category distribution (dominant-assigned docs):
+  sci.crypt                                 949  (95.1%)  ███████████████████████████████████████████████
+  sci.electronics                            26  ( 2.6%)  █
+  talk.politics.misc                          8  ( 0.8%)  
+  comp.windows.x                              4  ( 0.4%)  
+  sci.space                                   4  ( 0.4%)  
+  rec.sport.baseball                          2  ( 0.2%)  
+  alt.atheism                                 1  ( 0.1%)  
+  misc.forsale                                1  ( 0.1%)  
+
+Core documents (highest P(cluster 9)):
+  [1] doc_id=sci.crypt_15193 P=1.0000 cat=sci.crypt
+      newsgroups sci crypt path cantaloupe srv cs cmu edu crabapple srv cs cmu edu bb3 andrew cmu edu news sei cmu edu cis ohio state edu zaphod mps ohio state edu uwm edu spool mu edu uunet walter qualcom…
+  [2] doc_id=sci.crypt_15688 P=1.0000 cat=sci.crypt
+      xref cantaloupe srv cs cmu edu comp org eff talk 17089 alt privacy clipper 55 sci crypt 15688 newsgroups comp org eff talk alt privacy clipper sci crypt path cantaloupe srv cs cmu edu crabapple srv cs…
+  [3] doc_id=sci.crypt_15690 P=1.0000 cat=sci.crypt
+      newsgroups sci crypt path cantaloupe srv cs cmu edu crabapple srv cs cmu edu fs7 ece cmu edu europa eng gtefsd com howland reston ans net ira uka de math fu berlin de news netmbx de germany eu net mcs…
+  [4] doc_id=sci.crypt_15691 P=1.0000 cat=sci.crypt
+      newsgroups sci crypt path cantaloupe srv cs cmu edu crabapple srv cs cmu edu fs7 ece cmu edu europa eng gtefsd com howland reston ans net zaphod mps ohio state edu magnus acs ohio state edu csn yuma h…
+  [5] doc_id=sci.crypt_15692 P=1.0000 cat=sci.crypt
+      xref cantaloupe srv cs cmu edu sci crypt 15692 alt privacy clipper 56 path cantaloupe srv cs cmu edu crabapple srv cs cmu edu fs7 ece cmu edu europa eng gtefsd com howland reston ans net zaphod mps oh…
+
+Boundary documents (highest entropy in cluster 9):
+  [1] doc_id=sci.crypt_15855 H=0.0000 cat=sci.crypt
+      Top-2 cluster probs: C9: 1.000 | C1: 0.000
+      path cantaloupe srv cs cmu edu magnesium club cc cmu edu news sei cmu edu fs7 ece cmu edu europa eng gtefsd com howland reston ans net usc elroy jpl nasa gov news claremont edu ucivax news service uci…
+  [2] doc_id=sci.crypt_15852 H=0.0000 cat=sci.crypt
+      Top-2 cluster probs: C9: 1.000 | C1: 0.000
+      xref cantaloupe srv cs cmu edu comp org eff talk 17162 alt privacy clipper 103 sci crypt 15852 path cantaloupe srv cs cmu edu das news harvard edu noc near net transfer stratus com ellisun sw stratus…
+  [3] doc_id=sci.crypt_15753 H=0.0000 cat=sci.crypt
+      Top-2 cluster probs: C9: 1.000 | C1: 0.000
+      xref cantaloupe srv cs cmu edu comp org eff talk 17124 alt privacy clipper 74 sci crypt 15753 newsgroups comp org eff talk alt privacy clipper sci crypt path cantaloupe srv cs cmu edu rochester udel g…
+  [4] doc_id=sci.crypt_16012 H=0.0000 cat=sci.crypt
+      Top-2 cluster probs: C9: 1.000 | C1: 0.000
+      xref cantaloupe srv cs cmu edu comp org eff talk 17238 alt privacy clipper 132 sci crypt 16012 newsgroups comp org eff talk alt privacy clipper sci crypt path cantaloupe srv cs cmu edu rochester corne…
+  [5] doc_id=sci.crypt_15773 H=0.0000 cat=sci.crypt
+      Top-2 cluster probs: C9: 1.000 | C1: 0.000
+      xref cantaloupe srv cs cmu edu comp org eff talk 17129 alt privacy clipper 80 sci crypt 15773 path cantaloupe srv cs cmu edu das news harvard edu ogicse emory news feed 1 peachnet edu umn edu csus edu…
+
+────────────────────────────────────────────────────────────────────────────────
+CLUSTER 10  (896 documents as dominant)
+────────────────────────────────────────────────────────────────────────────────
+
+Category distribution (dominant-assigned docs):
+  alt.atheism                               545  (60.8%)  ██████████████████████████████
+  talk.religion.misc                        195  (21.8%)  ██████████
+  soc.religion.christian                     95  (10.6%)  █████
+  sci.med                                    41  ( 4.6%)  ██
+  sci.space                                  11  ( 1.2%)  
+  talk.politics.misc                          4  ( 0.4%)  
+  comp.sys.mac.hardware                       2  ( 0.2%)  
+  misc.forsale                                1  ( 0.1%)  
+
+Core documents (highest P(cluster 10)):
+  [1] doc_id=alt.atheism_49960 P=1.0000 cat=alt.atheism
+      xref cantaloupe srv cs cmu edu alt atheism 49960 alt atheism moderated 713 news answers 7054 alt answers 126 path cantaloupe srv cs cmu edu crabapple srv cs cmu edu bb3 andrew cmu edu news sei cmu edu…
+  [2] doc_id=alt.atheism_54144 P=1.0000 cat=alt.atheism
+      newsgroups alt atheism path cantaloupe srv cs cmu edu das news harvard edu noc near net howland reston ans net ira uka de news dfn de tubsibr dbstu1 rz tu bs de i3150101 from benedikt rosenau subject…
+  [3] doc_id=talk.religion.misc_83887 P=1.0000 cat=talk.religion.misc
+      xref cantaloupe srv cs cmu edu alt atheism 53516 talk religion misc 83887 talk origins 40988 newsgroups alt atheism talk religion misc talk origins path cantaloupe srv cs cmu edu das news harvard edu…
+  [4] doc_id=alt.atheism_54128 P=1.0000 cat=alt.atheism
+      path cantaloupe srv cs cmu edu das news harvard edu noc near net howland reston ans net usenet ins cwru edu po cwru edu kmr4 from keith m ryan newsgroups alt atheism subject re some thoughts date mon…
+  [5] doc_id=alt.atheism_54131 P=1.0000 cat=alt.atheism
+      newsgroups alt atheism path cantaloupe srv cs cmu edu das news harvard edu noc near net uunet pipex uknet newcastle ac uk newton n03ki from graeme nattress subject re cults vs religions nntp posting h…
+
+Boundary documents (highest entropy in cluster 10):
+  [1] doc_id=alt.atheism_54185 H=0.9175 cat=alt.atheism
+      Top-2 cluster probs: C10: 0.489 | C3: 0.430
+      path cantaloupe srv cs cmu edu das news harvard edu noc near net uunet pipex ibmpcug mantis news from mathew newsgroups alt atheism subject re cults vs religions message id date mon 26 apr 1993 15 05…
+  [2] doc_id=talk.religion.misc_83517 H=0.6923 cat=talk.religion.misc
+      Top-2 cluster probs: C10: 0.546 | C3: 0.454
+      xref cantaloupe srv cs cmu edu alt magick 9894 alt pagan 29622 talk religion misc 83517 path cantaloupe srv cs cmu edu magnesium club cc cmu edu news sei cmu edu cis ohio state edu pacific mps ohio st…
+  [3] doc_id=talk.religion.misc_83800 H=0.6923 cat=talk.religion.misc
+      Top-2 cluster probs: C10: 0.521 | C3: 0.479
+      newsgroups talk religion misc path cantaloupe srv cs cmu edu crabapple srv cs cmu edu fs7 ece cmu edu europa eng gtefsd com gatech usenet ins cwru edu agate ames saimiri primate wisc edu zaphod mps oh…
+  [4] doc_id=talk.religion.misc_83520 H=0.6910 cat=talk.religion.misc
+      Top-2 cluster probs: C10: 0.536 | C3: 0.464
+      xref cantaloupe srv cs cmu edu alt magick 9898 alt pagan 29625 talk religion misc 83520 newsgroups alt magick alt pagan talk religion misc path cantaloupe srv cs cmu edu das news harvard edu noc near…
+  [5] doc_id=soc.religion.christian_20648 H=0.6691 cat=soc.religion.christian
+      Top-2 cluster probs: C10: 0.609 | C3: 0.391
+      path cantaloupe srv cs cmu edu rochester udel darwin sura net wupost zaphod mps ohio state edu cs utexas edu rutgers igor rutgers edu athos rutgers edu christian from chris mussack newsgroups soc reli…
+
+────────────────────────────────────────────────────────────────────────────────
+CLUSTER 11  (998 documents as dominant)
+────────────────────────────────────────────────────────────────────────────────
+
+Category distribution (dominant-assigned docs):
+  sci.space                                 902  (90.4%)  █████████████████████████████████████████████
+  sci.med                                    47  ( 4.7%)  ██
+  sci.electronics                            22  ( 2.2%)  █
+  comp.os.ms-windows.misc                    13  ( 1.3%)  
+  comp.windows.x                              6  ( 0.6%)  
+  comp.graphics                               2  ( 0.2%)  
+  sci.crypt                                   2  ( 0.2%)  
+  talk.politics.guns                          2  ( 0.2%)  
+
+Core documents (highest P(cluster 11)):
+  [1] doc_id=sci.space_61402 P=1.0000 cat=sci.space
+      xref cantaloupe srv cs cmu edu sci astro 35220 sci space 61402 path cantaloupe srv cs cmu edu das news harvard edu noc near net howland reston ans net zaphod mps ohio state edu sdd hp com ncr sd ncrca…
+  [2] doc_id=sci.space_60910 P=1.0000 cat=sci.space
+      path cantaloupe srv cs cmu edu das news harvard edu ogicse news u washington edu raven alaska edu aurora alaska edu nsmca from newsgroups sci space subject re why not give 1 billion to first year long…
+  [3] doc_id=sci.space_60924 P=1.0000 cat=sci.space
+      newsgroups sci space path cantaloupe srv cs cmu edu magnesium club cc cmu edu news sei cmu edu cis ohio state edu zaphod mps ohio state edu howland reston ans net ux1 cso uiuc edu news cso uiuc edu ux…
+  [4] doc_id=sci.space_60923 P=1.0000 cat=sci.space
+      newsgroups sci space path cantaloupe srv cs cmu edu das news harvard edu noc near net howland reston ans net spool mu edu caen batcomputer munnari oz au yarrina connect com au melba bby com au gnb fro…
+  [5] doc_id=sci.space_60922 P=1.0000 cat=sci.space
+      newsgroups sci space path cantaloupe srv cs cmu edu magnesium club cc cmu edu news sei cmu edu cis ohio state edu magnus acs ohio state edu zaphod mps ohio state edu darwin sura net news feed 1 peachn…
+
+Boundary documents (highest entropy in cluster 11):
+  [1] doc_id=sci.crypt_15321 H=0.0084 cat=sci.crypt
+      Top-2 cluster probs: C11: 0.999 | C7: 0.001
+      xref cantaloupe srv cs cmu edu news admin policy 5179 comp admin policy 3000 sci crypt 15321 comp mail mime 846 path cantaloupe srv cs cmu edu das news harvard edu noc near net howland reston ans net…
+  [2] doc_id=sci.space_60812 H=0.0000 cat=sci.space
+      Top-2 cluster probs: C11: 1.000 | C7: 0.000
+      from mark prado sender path cantaloupe srv cs cmu edu crabapple srv cs cmu edu fs7 ece cmu edu europa eng gtefsd com gatech usenet ins cwru edu agate spool mu edu uunet permanet uucp newsgroups sci sp…
+  [3] doc_id=sci.crypt_15822 H=0.0000 cat=sci.crypt
+      Top-2 cluster probs: C11: 1.000 | C7: 0.000
+      xref cantaloupe srv cs cmu edu comp org eff talk 17145 alt privacy clipper 92 sci crypt 15822 path cantaloupe srv cs cmu edu das news harvard edu spdcc merk tacobel stan from stan newsgroups comp org…
+  [4] doc_id=comp.graphics_38314 H=0.0000 cat=comp.graphics
+      Top-2 cluster probs: C11: 1.000 | C7: 0.000
+      xref cantaloupe srv cs cmu edu comp graphics 38314 alt graphics 547 path cantaloupe srv cs cmu edu das news harvard edu husc news harvard edu husc11 harvard edu eekim newsgroups harvard general harvar…
+  [5] doc_id=sci.space_61023 H=0.0000 cat=sci.space
+      Top-2 cluster probs: C11: 1.000 | C18: 0.000
+      path cantaloupe srv cs cmu edu crabapple srv cs cmu edu bb3 andrew cmu edu news sei cmu edu cis ohio state edu zaphod mps ohio state edu howland reston ans net noc near net uunet idacrd ccr p ida org…
+
+────────────────────────────────────────────────────────────────────────────────
+CLUSTER 12  (1023 documents as dominant)
+────────────────────────────────────────────────────────────────────────────────
+
+Category distribution (dominant-assigned docs):
+  comp.graphics                             750  (73.3%)  ████████████████████████████████████
+  comp.windows.x                            157  (15.3%)  ███████
+  comp.os.ms-windows.misc                    69  ( 6.7%)  ███
+  sci.space                                  23  ( 2.2%)  █
+  sci.med                                     9  ( 0.9%)  
+  comp.sys.ibm.pc.hardware                    5  ( 0.5%)  
+  sci.electronics                             4  ( 0.4%)  
+  comp.sys.mac.hardware                       3  ( 0.3%)  
+
+Core documents (highest P(cluster 12)):
+  [1] doc_id=comp.graphics_38897 P=1.0000 cat=comp.graphics
+      xref cantaloupe srv cs cmu edu comp graphics 38897 comp graphics animation 3128 comp sys amiga graphics 14305 comp sys amiga misc 33157 alt graphics pixutils 5388 comp sys mac misc 43793 rec video 465…
+  [2] doc_id=comp.graphics_38662 P=1.0000 cat=comp.graphics
+      newsgroups comp graphics path cantaloupe srv cs cmu edu rochester udel wupost howland reston ans net agate doc ic ac uk uknet mcsun news forth gr ntua gr theseas nfotis from nick c fotis subject re mo…
+  [3] doc_id=comp.graphics_38691 P=1.0000 cat=comp.graphics
+      path cantaloupe srv cs cmu edu das news harvard edu noc near net news bbn com jbalgley from jon balgley newsgroups comp graphics subject hidden line removal program date 23 apr 1993 15 08 42 gmt organ…
+  [4] doc_id=comp.graphics_38692 P=1.0000 cat=comp.graphics
+      path cantaloupe srv cs cmu edu das news harvard edu noc near net news centerline com uunet pipex warwick zaphod crihan fr univ lille1 fr louis from louis gonzalez 20 43 41 19 newsgroups comp graphics…
+  [5] doc_id=comp.graphics_38694 P=1.0000 cat=comp.graphics
+      newsgroups comp graphics path cantaloupe srv cs cmu edu das news harvard edu noc near net howland reston ans net usc cs utexas edu uwm edu daffy uwvax uchinews ellis dgf1 from david farley subject re…
+
+Boundary documents (highest entropy in cluster 12):
+  [1] doc_id=comp.graphics_38562 H=0.6466 cat=comp.graphics
+      Top-2 cluster probs: C12: 0.651 | C7: 0.349
+      path cantaloupe srv cs cmu edu magnesium club cc cmu edu pitt edu zaphod mps ohio state edu cs utexas edu uunet pipex uknet brunel cs89ssg from sunil gupta newsgroups comp graphics subject re rtrace 8…
+  [2] doc_id=comp.os.ms-windows.misc_9784 H=0.6365 cat=comp.os.ms-windows.misc
+      Top-2 cluster probs: C12: 0.667 | C7: 0.333
+      newsgroups comp os ms windows misc path cantaloupe srv cs cmu edu magnesium club cc cmu edu news sei cmu edu cis ohio state edu zaphod mps ohio state edu uwm edu caen uvaarpa maxwell cac2g from the wi…
+  [3] doc_id=comp.graphics_39008 H=0.5889 cat=comp.graphics
+      Top-2 cluster probs: C12: 0.724 | C7: 0.276
+      xref cantaloupe srv cs cmu edu alt binaries pictures supermodels 949 alt graphics pixutils 5400 comp graphics 39008 alt binaries pictures erotica d 15194 alt binaries pictures d 8920 path cantaloupe s…
+  [4] doc_id=comp.windows.x_67203 H=0.2827 cat=comp.windows.x
+      Top-2 cluster probs: C12: 0.918 | C28: 0.082
+      path cantaloupe srv cs cmu edu rochester udel gatech enterpoop mit edu internet news mail gateway from joe hildebrand newsgroups comp windows x subject re question regarding overlaying of graphics dat…
+  [5] doc_id=comp.windows.x_67315 H=0.1971 cat=comp.windows.x
+      Top-2 cluster probs: C12: 0.950 | C28: 0.050
+      xref cantaloupe srv cs cmu edu comp windows x 67315 comp windows x motif 16815 comp windows x intrinsics 1174 newsgroups comp windows x comp windows x app comp windows x motif comp windows x intrinsic…
+
+────────────────────────────────────────────────────────────────────────────────
+CLUSTER 13  (527 documents as dominant)
+────────────────────────────────────────────────────────────────────────────────
+
+Category distribution (dominant-assigned docs):
+  talk.politics.guns                        453  (86.0%)  ██████████████████████████████████████████
+  talk.politics.misc                         37  ( 7.0%)  ███
+  sci.crypt                                  16  ( 3.0%)  █
+  rec.autos                                  12  ( 2.3%)  █
+  talk.religion.misc                          5  ( 0.9%)  
+  misc.forsale                                4  ( 0.8%)  
+
+Core documents (highest P(cluster 13)):
+  [1] doc_id=talk.politics.guns_54152 P=1.0000 cat=talk.politics.guns
+      from rick bressler date wed 14 apr 1993 15 45 59 gmt subject re armed citizen april 93 message id organization boeing commercial airplane group path cantaloupe srv cs cmu edu crabapple srv cs cmu edu…
+  [2] doc_id=talk.politics.guns_54554 P=1.0000 cat=talk.politics.guns
+      newsgroups talk politics guns path cantaloupe srv cs cmu edu magnesium club cc cmu edu news sei cmu edu cis ohio state edu pacific mps ohio state edu zaphod mps ohio state edu swrinde gatech howland r…
+  [3] doc_id=talk.politics.guns_54224 P=1.0000 cat=talk.politics.guns
+      path cantaloupe srv cs cmu edu magnesium club cc cmu edu news sei cmu edu fs7 ece cmu edu europa eng gtefsd com howland reston ans net usenet ins cwru edu lerc nasa gov hooch lerc nasa gov pspod from…
+  [4] doc_id=talk.politics.guns_54146 P=1.0000 cat=talk.politics.guns
+      path cantaloupe srv cs cmu edu crabapple srv cs cmu edu fs7 ece cmu edu europa eng gtefsd com gatech howland reston ans net zaphod mps ohio state edu darwin sura net haven umd edu mimsy mcimail com fr…
+  [5] doc_id=talk.politics.guns_54549 P=1.0000 cat=talk.politics.guns
+      newsgroups talk politics guns path cantaloupe srv cs cmu edu das news harvard edu noc near net howland reston ans net bogus sura net darwin sura net martha utcc utk edu titanic ce utk edu veal from da…
+
+Boundary documents (highest entropy in cluster 13):
+  [1] doc_id=talk.politics.guns_54847 H=0.6905 cat=talk.politics.guns
+      Top-2 cluster probs: C13: 0.537 | C1: 0.463
+      xref cantaloupe srv cs cmu edu talk politics guns 54847 misc headlines 41850 alt politics clinton 29595 newsgroups talk politics guns misc headlines alt politics clinton path cantaloupe srv cs cmu edu…
+  [2] doc_id=talk.politics.guns_54515 H=0.6513 cat=talk.politics.guns
+      Top-2 cluster probs: C13: 0.644 | C1: 0.356
+      newsgroups talk politics guns path cantaloupe srv cs cmu edu das news harvard edu noc near net howland reston ans net zaphod mps ohio state edu magnus acs ohio state edu csn boulder ucsu spot colorado…
+  [3] doc_id=talk.politics.guns_55269 H=0.4301 cat=talk.politics.guns
+      Top-2 cluster probs: C13: 0.846 | C1: 0.154
+      newsgroups talk politics guns path cantaloupe srv cs cmu edu magnesium club cc cmu edu news sei cmu edu cis ohio state edu zaphod mps ohio state edu sdd hp com decwrl pa dec com nntpd2 cxo dec com pea…
+  [4] doc_id=talk.politics.guns_54683 H=0.2787 cat=talk.politics.guns
+      Top-2 cluster probs: C13: 0.920 | C1: 0.080
+      path cantaloupe srv cs cmu edu magnesium club cc cmu edu news sei cmu edu cis ohio state edu zaphod mps ohio state edu howland reston ans net noc near net transfer stratus com sw stratus com cdt from…
+  [5] doc_id=talk.politics.guns_54739 H=0.2680 cat=talk.politics.guns
+      Top-2 cluster probs: C13: 0.924 | C1: 0.076
+      path cantaloupe srv cs cmu edu crabapple srv cs cmu edu fs7 ece cmu edu europa eng gtefsd com darwin sura net mojo eng umd edu chuck from chuck harris wa3uqv newsgroups talk politics guns subject re c…
+
+────────────────────────────────────────────────────────────────────────────────
+CLUSTER 14  (1006 documents as dominant)
+────────────────────────────────────────────────────────────────────────────────
+
+Category distribution (dominant-assigned docs):
+  comp.sys.ibm.pc.hardware                  477  (47.4%)  ███████████████████████
+  comp.sys.mac.hardware                     329  (32.7%)  ████████████████
+  comp.os.ms-windows.misc                   110  (10.9%)  █████
+  sci.electronics                            62  ( 6.2%)  ███
+  misc.forsale                               13  ( 1.3%)  
+  comp.graphics                               7  ( 0.7%)  
+  comp.windows.x                              5  ( 0.5%)  
+  sci.space                                   2  ( 0.2%)  
+
+Core documents (highest P(cluster 14)):
+  [1] doc_id=comp.sys.ibm.pc.hardware_60148 P=1.0000 cat=comp.sys.ibm.pc.hardware
+      newsgroups comp sys ibm pc hardware path cantaloupe srv cs cmu edu crabapple srv cs cmu edu bb3 andrew cmu edu news sei cmu edu cis ohio state edu zaphod mps ohio state edu cs utexas edu uunet mcsun s…
+  [2] doc_id=comp.sys.ibm.pc.hardware_61089 P=1.0000 cat=comp.sys.ibm.pc.hardware
+      newsgroups comp sys ibm pc hardware path cantaloupe srv cs cmu edu das news harvard edu noc near net uunet psgrain ee und ac za hippo itbijv puk ac za itbijv from isak venter subject bios passwords me…
+  [3] doc_id=comp.sys.ibm.pc.hardware_61151 P=1.0000 cat=comp.sys.ibm.pc.hardware
+      newsgroups comp sys ibm pc hardware path cantaloupe srv cs cmu edu rochester cornell batcomputer caen usenet cis ufl edu usenet ufl edu gatech swrinde sdd hp com col hp com fc hp com jws from john sch…
+  [4] doc_id=comp.sys.ibm.pc.hardware_61149 P=1.0000 cat=comp.sys.ibm.pc.hardware
+      newsgroups comp sys ibm pc hardware path cantaloupe srv cs cmu edu rochester udel darwin sura net haven umd edu uunet boulder ucsu ucsu colorado edu kotsines from t kotsines subject re scsi vs ide mes…
+  [5] doc_id=comp.sys.ibm.pc.hardware_61147 P=1.0000 cat=comp.sys.ibm.pc.hardware
+      from steve harrold date fri 23 apr 1993 18 08 28 gmt subject quantum lps240a hard disk phantom seeks message id organization hewlett packard cupertino path cantaloupe srv cs cmu edu rochester udel gat…
+
+Boundary documents (highest entropy in cluster 14):
+  [1] doc_id=comp.sys.mac.hardware_51540 H=0.8256 cat=comp.sys.mac.hardware
+      Top-2 cluster probs: C14: 0.659 | C5: 0.263
+      path cantaloupe srv cs cmu edu crabapple srv cs cmu edu bb3 andrew cmu edu news sei cmu edu cis ohio state edu zaphod mps ohio state edu darwin sura net guvax acc georgetown edu hew from newsgroups co…
+  [2] doc_id=comp.sys.ibm.pc.hardware_58978 H=0.6759 cat=comp.sys.ibm.pc.hardware
+      Top-2 cluster probs: C14: 0.593 | C27: 0.407
+      newsgroups comp sys ibm pc hardware path cantaloupe srv cs cmu edu crabapple srv cs cmu edu fs7 ece cmu edu europa eng gtefsd com howland reston ans net gatech hubcap ncrcae ccscola dmoyer from dan mo…
+  [3] doc_id=comp.sys.mac.hardware_51545 H=0.6707 cat=comp.sys.mac.hardware
+      Top-2 cluster probs: C14: 0.664 | C27: 0.330
+      path from jeff hite newsgroups comp sys mac hardware subject re monitor shut down on 13 hi res date 15 apr 1993 23 05 30 gmt organization university of oregon network services lines 23 message id refe…
+  [4] doc_id=comp.sys.ibm.pc.hardware_60234 H=0.6654 cat=comp.sys.ibm.pc.hardware
+      Top-2 cluster probs: C14: 0.617 | C5: 0.383
+      path cantaloupe srv cs cmu edu crabapple srv cs cmu edu fs7 ece cmu edu europa eng gtefsd com howland reston ans net zaphod mps ohio state edu caen msuinfo griffith from terry griffith newsgroups comp…
+  [5] doc_id=comp.graphics_38505 H=0.6621 cat=comp.graphics
+      Top-2 cluster probs: C14: 0.624 | C5: 0.376
+      xref cantaloupe srv cs cmu edu comp multimedia 6597 comp graphics 38505 newsgroups comp multimedia comp graphics path cantaloupe srv cs cmu edu magnesium club cc cmu edu news sei cmu edu fs7 ece cmu e…
+
+────────────────────────────────────────────────────────────────────────────────
+CLUSTER 15  (182 documents as dominant)
+────────────────────────────────────────────────────────────────────────────────
+
+Category distribution (dominant-assigned docs):
+  talk.politics.misc                        166  (91.2%)  █████████████████████████████████████████████
+  alt.atheism                                 9  ( 4.9%)  ██
+  talk.politics.guns                          2  ( 1.1%)  
+  talk.politics.mideast                       2  ( 1.1%)  
+  talk.religion.misc                          2  ( 1.1%)  
+  soc.religion.christian                      1  ( 0.5%)  
+
+Core documents (highest P(cluster 15)):
+  [1] doc_id=talk.politics.misc_178742 P=1.0000 cat=talk.politics.misc
+      newsgroups talk politics misc ca politics ba politics path cantaloupe srv cs cmu edu magnesium club cc cmu edu news sei cmu edu cis ohio state edu pacific mps ohio state edu zaphod mps ohio state edu…
+  [2] doc_id=talk.politics.misc_178624 P=1.0000 cat=talk.politics.misc
+      xref cantaloupe srv cs cmu edu talk politics misc 178624 alt sex 111507 soc men 68614 misc legal 60773 path cantaloupe srv cs cmu edu rochester udel news intercon com psinntp gdc esun228 piatt from ga…
+  [3] doc_id=talk.politics.misc_178900 P=1.0000 cat=talk.politics.misc
+      xref cantaloupe srv cs cmu edu talk politics misc 178900 alt sex 111713 soc men 68715 misc legal 60919 path cantaloupe srv cs cmu edu magnesium club cc cmu edu pitt edu gatech howland reston ans net u…
+  [4] doc_id=talk.politics.misc_178901 P=1.0000 cat=talk.politics.misc
+      xref cantaloupe srv cs cmu edu talk politics misc 178901 alt sex 111714 soc men 68716 misc legal 60922 newsgroups talk politics misc alt sex soc men misc legal path cantaloupe srv cs cmu edu rochester…
+  [5] doc_id=talk.politics.misc_178621 P=1.0000 cat=talk.politics.misc
+      xref cantaloupe srv cs cmu edu talk politics misc 178621 alt sex 111506 soc men 68612 misc legal 60772 path cantaloupe srv cs cmu edu magnesium club cc cmu edu news sei cmu edu cis ohio state edu paci…
+
+Boundary documents (highest entropy in cluster 15):
+  [1] doc_id=talk.politics.guns_55476 H=0.0000 cat=talk.politics.guns
+      Top-2 cluster probs: C15: 1.000 | C1: 0.000
+      newsgroups talk politics guns path cantaloupe srv cs cmu edu magnesium club cc cmu edu news sei cmu edu cis ohio state edu zaphod mps ohio state edu darwin sura net news duc auburn edu lab9 bixledn fr…
+  [2] doc_id=talk.politics.misc_178633 H=0.0000 cat=talk.politics.misc
+      Top-2 cluster probs: C15: 1.000 | C1: 0.000
+      xref cantaloupe srv cs cmu edu talk politics misc 178633 alt sex 111511 soc men 68618 misc legal 60779 newsgroups talk politics misc ca politics ba politics alt sex soc men misc legal path cantaloupe…
+  [3] doc_id=talk.politics.misc_178364 H=0.0000 cat=talk.politics.misc
+      Top-2 cluster probs: C15: 1.000 | C1: 0.000
+      newsgroups ca politics talk politics misc path cantaloupe srv cs cmu edu magnesium club cc cmu edu news sei cmu edu fs7 ece cmu edu europa eng gtefsd com emory news feed 1 peachnet edu umn edu csus ed…
+  [4] doc_id=talk.politics.misc_178565 H=0.0000 cat=talk.politics.misc
+      Top-2 cluster probs: C15: 1.000 | C1: 0.000
+      xref cantaloupe srv cs cmu edu talk politics misc 178565 alt sex 111466 soc men 68589 misc legal 60750 path cantaloupe srv cs cmu edu rochester udel gatech howland reston ans net noc near net uunet op…
+  [5] doc_id=talk.politics.misc_176911 H=0.0000 cat=talk.politics.misc
+      Top-2 cluster probs: C15: 1.000 | C1: 0.000
+      xref cantaloupe srv cs cmu edu talk politics misc 176911 alt activism 42377 alt conspiracy 21385 misc legal 59977 path cantaloupe srv cs cmu edu rochester rutgers igor rutgers edu romulus rutgers edu…
+
+────────────────────────────────────────────────────────────────────────────────
+CLUSTER 16  (1033 documents as dominant)
+────────────────────────────────────────────────────────────────────────────────
+
+Category distribution (dominant-assigned docs):
+  rec.motorcycles                           947  (91.7%)  █████████████████████████████████████████████
+  rec.autos                                  58  ( 5.6%)  ██
+  misc.forsale                               15  ( 1.5%)  
+  comp.sys.ibm.pc.hardware                    2  ( 0.2%)  
+  sci.med                                     2  ( 0.2%)  
+  sci.space                                   2  ( 0.2%)  
+  talk.politics.guns                          2  ( 0.2%)  
+  talk.religion.misc                          2  ( 0.2%)  
+
+Core documents (highest P(cluster 16)):
+  [1] doc_id=rec.motorcycles_104542 P=1.0000 cat=rec.motorcycles
+      xref cantaloupe srv cs cmu edu rec motorcycles 104542 rec motorcycles harley 3354 newsgroups rec motorcycles rec motorcycles harley path cantaloupe srv cs cmu edu rochester udel bogus sura net darwin…
+  [2] doc_id=rec.motorcycles_104788 P=1.0000 cat=rec.motorcycles
+      newsgroups rec motorcycles path cantaloupe srv cs cmu edu crabapple srv cs cmu edu fs7 ece cmu edu europa eng gtefsd com howland reston ans net noc near net uunet pipex uknet warwick qmw dcs davide fr…
+  [3] doc_id=rec.motorcycles_104790 P=1.0000 cat=rec.motorcycles
+      path cantaloupe srv cs cmu edu crabapple srv cs cmu edu fs7 ece cmu edu europa eng gtefsd com darwin sura net haven umd edu mimsy afterlife adm claudius b329 gator 3 pica army mil user from tom corade…
+  [4] doc_id=rec.motorcycles_104791 P=1.0000 cat=rec.motorcycles
+      path cantaloupe srv cs cmu edu crabapple srv cs cmu edu fs7 ece cmu edu europa eng gtefsd com darwin sura net haven umd edu mimsy afterlife adm claudius b329 gator 3 pica army mil user from tom corade…
+  [5] doc_id=rec.motorcycles_104792 P=1.0000 cat=rec.motorcycles
+      newsgroups rec motorcycles path cantaloupe srv cs cmu edu crabapple srv cs cmu edu fs7 ece cmu edu europa eng gtefsd com darwin sura net uvaarpa maxwell cds7k from christopher douglas saady subject re…
+
+Boundary documents (highest entropy in cluster 16):
+  [1] doc_id=rec.motorcycles_105113 H=0.5326 cat=rec.motorcycles
+      Top-2 cluster probs: C16: 0.775 | C4: 0.225
+      newsgroups rec motorcycles path cantaloupe srv cs cmu edu rochester udel wupost cs utexas edu uunet island fester from mike fester subject re back breaker near hit message id sender the usenet mail ta…
+  [2] doc_id=rec.motorcycles_103206 H=0.4981 cat=rec.motorcycles
+      Top-2 cluster probs: C16: 0.802 | C4: 0.198
+      xref cantaloupe srv cs cmu edu rec autos tech 53470 rec motorcycles 103206 path cantaloupe srv cs cmu edu das news harvard edu ogicse decwrl uunet ddsw1 eff news oc com usenet from jonathan r lusky ne…
+  [3] doc_id=rec.autos_101600 H=0.4283 cat=rec.autos
+      Top-2 cluster probs: C16: 0.847 | C4: 0.153
+      newsgroups rec autos path cantaloupe srv cs cmu edu rochester cornell batcomputer caen saimiri primate wisc edu usenet coe montana edu news u washington edu raven alaska edu acad3 alaska edu fsmlm2 fr…
+  [4] doc_id=rec.motorcycles_105211 H=0.3076 cat=rec.motorcycles
+      Top-2 cluster probs: C16: 0.908 | C18: 0.092
+      path cantaloupe srv cs cmu edu crabapple srv cs cmu edu fs7 ece cmu edu europa eng gtefsd com howland reston ans net usc zaphod mps ohio state edu malgudi oar net news ysu edu yfn ysu edu ak296 from j…
+  [5] doc_id=rec.autos_101645 H=0.0863 cat=rec.autos
+      Top-2 cluster probs: C16: 0.983 | C4: 0.017
+      xref cantaloupe srv cs cmu edu rec autos 101645 soc women 74959 path cantaloupe srv cs cmu edu das news harvard edu ogicse uwm edu ux1 cso uiuc edu news cso uiuc edu uxa cso uiuc edu mwbg9715 from mar…
+
+────────────────────────────────────────────────────────────────────────────────
+CLUSTER 17  (977 documents as dominant)
+────────────────────────────────────────────────────────────────────────────────
+
+Category distribution (dominant-assigned docs):
+  rec.sport.baseball                        970  (99.3%)  █████████████████████████████████████████████████
+  talk.politics.misc                          2  ( 0.2%)  
+  comp.os.ms-windows.misc                     1  ( 0.1%)  
+  rec.autos                                   1  ( 0.1%)  
+  sci.electronics                             1  ( 0.1%)  
+  sci.med                                     1  ( 0.1%)  
+  talk.politics.mideast                       1  ( 0.1%)  
+
+Core documents (highest P(cluster 17)):
+  [1] doc_id=rec.sport.baseball_98657 P=1.0000 cat=rec.sport.baseball
+      path cantaloupe srv cs cmu edu rochester udel gatech howland reston ans net bogus sura net jhunix hcf jhu edu jhunix hcf jhu edu not for mail from steve c liu newsgroups rec sport baseball subject re…
+  [2] doc_id=rec.sport.baseball_104489 P=1.0000 cat=rec.sport.baseball
+      newsgroups rec sport baseball path cantaloupe srv cs cmu edu das news harvard edu noc near net howland reston ans net wupost gumby destroyer cs ubc ca uw beaver cornell tedward from edward ted fischer…
+  [3] doc_id=rec.sport.baseball_104487 P=1.0000 cat=rec.sport.baseball
+      newsgroups rec sport baseball path cantaloupe srv cs cmu edu das news harvard edu noc near net howland reston ans net bogus sura net darwin sura net news udel edu bach udel edu philly from robert c hi…
+  [4] doc_id=rec.sport.baseball_104486 P=1.0000 cat=rec.sport.baseball
+      path cantaloupe srv cs cmu edu das news harvard edu noc near net howland reston ans net spool mu edu news nd edu irishvma rvesterm organization university of notre dame office of univ computing date s…
+  [5] doc_id=rec.sport.baseball_104485 P=1.0000 cat=rec.sport.baseball
+      path cantaloupe srv cs cmu edu das news harvard edu noc near net howland reston ans net spool mu edu news nd edu irishvma rvesterm organization university of notre dame office of univ computing date s…
+
+Boundary documents (highest entropy in cluster 17):
+  [1] doc_id=rec.sport.baseball_104392 H=0.0000 cat=rec.sport.baseball
+      Top-2 cluster probs: C17: 1.000 | C2: 0.000
+      path cantaloupe srv cs cmu edu magnesium club cc cmu edu news sei cmu edu fs7 ece cmu edu europa eng gtefsd com gatech emory swrinde zaphod mps ohio state edu uwm edu psuvax1 psuvm wjs112 organization…
+  [2] doc_id=rec.sport.baseball_104534 H=0.0000 cat=rec.sport.baseball
+      Top-2 cluster probs: C17: 1.000 | C2: 0.000
+      newsgroups rec sport baseball path cantaloupe srv cs cmu edu das news harvard edu noc near net howland reston ans net zaphod mps ohio state edu cs utexas edu utnut torn csd unb ca news ucs mun ca morg…
+  [3] doc_id=rec.sport.baseball_104852 H=0.0000 cat=rec.sport.baseball
+      Top-2 cluster probs: C17: 1.000 | C2: 0.000
+      path cantaloupe srv cs cmu edu magnesium club cc cmu edu pitt edu gatech purdue mentor cc purdue edu noose ecn purdue edu chainsaw ecn purdue edu ts from thomas ruschak newsgroups rec sport baseball s…
+  [4] doc_id=rec.sport.baseball_104395 H=0.0000 cat=rec.sport.baseball
+      Top-2 cluster probs: C17: 1.000 | C2: 0.000
+      path cantaloupe srv cs cmu edu das news harvard edu noc near net uunet zaphod mps ohio state edu magnus acs ohio state edu usenet ins cwru edu agate jtchern from joseph hernandez newsgroups rec sport…
+  [5] doc_id=rec.sport.baseball_104762 H=0.0000 cat=rec.sport.baseball
+      Top-2 cluster probs: C17: 1.000 | C2: 0.000
+      xref cantaloupe srv cs cmu edu soc culture canada 17323 rec humor 109283 rec sport baseball 104762 newsgroups soc culture canada rec humor rec sport baseball path cantaloupe srv cs cmu edu magnesium c…
+
+────────────────────────────────────────────────────────────────────────────────
+CLUSTER 18  (706 documents as dominant)
+────────────────────────────────────────────────────────────────────────────────
+
+Category distribution (dominant-assigned docs):
+  sci.electronics                           540  (76.5%)  ██████████████████████████████████████
+  rec.autos                                  34  ( 4.8%)  ██
+  comp.sys.ibm.pc.hardware                   33  ( 4.7%)  ██
+  comp.sys.mac.hardware                      28  ( 4.0%)  █
+  comp.os.ms-windows.misc                    21  ( 3.0%)  █
+  misc.forsale                               18  ( 2.5%)  █
+  rec.motorcycles                            12  ( 1.7%)  
+  sci.space                                  10  ( 1.4%)  
+
+Core documents (highest P(cluster 18)):
+  [1] doc_id=sci.electronics_53704 P=1.0000 cat=sci.electronics
+      newsgroups sci electronics path cantaloupe srv cs cmu edu das news harvard edu noc near net uunet destroyer cs ubc ca unixg ubc ca kakwa ucs ualberta ca ee ualberta ca ulan from dale ulan subject re n…
+  [2] doc_id=sci.med_59636 P=1.0000 cat=sci.med
+      path cantaloupe srv cs cmu edu das news harvard edu noc near net howland reston ans net zaphod mps ohio state edu uwm edu linac att news cs indiana edu babbage ece uc edu uceng uc edu cccbbs rob welde…
+  [3] doc_id=sci.electronics_53912 P=1.0000 cat=sci.electronics
+      xref cantaloupe srv cs cmu edu misc consumers house 45871 sci electronics 53912 path cantaloupe srv cs cmu edu magnesium club cc cmu edu news sei cmu edu fs7 ece cmu edu europa eng gtefsd com howland…
+  [4] doc_id=sci.electronics_53913 P=1.0000 cat=sci.electronics
+      path cantaloupe srv cs cmu edu rochester udel darwin sura net news feed 1 peachnet edu gatech howland reston ans net usc cs utexas edu asuvax ncar noao amethyst organpipe uug arizona edu afthree as ar…
+  [5] doc_id=sci.electronics_54041 P=1.0000 cat=sci.electronics
+      path cantaloupe srv cs cmu edu das news harvard edu ogicse uwm edu cs utexas edu zaphod mps ohio state edu darwin sura net ukma news from mark underwood newsgroups sci electronics subject re radar det…
+
+Boundary documents (highest entropy in cluster 18):
+  [1] doc_id=comp.sys.mac.hardware_52099 H=0.6917 cat=comp.sys.mac.hardware
+      Top-2 cluster probs: C18: 0.535 | C27: 0.465
+      path cantaloupe srv cs cmu edu crabapple srv cs cmu edu fs7 ece cmu edu europa eng gtefsd com gatech howland reston ans net usc cs utexas edu tamsun tamu edu tamuts lpa8921 from louis paul adams newsg…
+  [2] doc_id=sci.electronics_53789 H=0.6913 cat=sci.electronics
+      Top-2 cluster probs: C18: 0.531 | C0: 0.469
+      newsgroups sci electronics path cantaloupe srv cs cmu edu magnesium club cc cmu edu news sei cmu edu cis ohio state edu zaphod mps ohio state edu moe ksu ksu edu engr uark edu engr engr uark edu jmc f…
+  [3] doc_id=comp.sys.mac.hardware_50501 H=0.6838 cat=comp.sys.mac.hardware
+      Top-2 cluster probs: C18: 0.568 | C27: 0.432
+      xref cantaloupe srv cs cmu edu comp sys mac hardware 50501 comp sys mac misc 42532 path cantaloupe srv cs cmu edu das news harvard edu ogicse network ucsd edu news acns nwu edu uicvm uic edu u56149 fr…
+  [4] doc_id=sci.electronics_53937 H=0.6725 cat=sci.electronics
+      Top-2 cluster probs: C18: 0.601 | C0: 0.399
+      newsgroups sci electronics path cantaloupe srv cs cmu edu crabapple srv cs cmu edu fs7 ece cmu edu europa eng gtefsd com howland reston ans net usc sdd hp com hpscit sc hp com cupnews0 cup hp com dcla…
+  [5] doc_id=sci.electronics_54168 H=0.6707 cat=sci.electronics
+      Top-2 cluster probs: C18: 0.606 | C0: 0.394
+      path cantaloupe srv cs cmu edu magnesium club cc cmu edu pitt edu gatech howland reston ans net ux1 cso uiuc edu uchinews att out oucsboss oucsace mcorbin from max corbin newsgroups sci electronics su…
+
+────────────────────────────────────────────────────────────────────────────────
+CLUSTER 19  (24 documents as dominant)
+────────────────────────────────────────────────────────────────────────────────
+
+Category distribution (dominant-assigned docs):
+  talk.religion.misc                         13  (54.2%)  ███████████████████████████
+  alt.atheism                                11  (45.8%)  ██████████████████████
+
+Core documents (highest P(cluster 19)):
+  [1] doc_id=talk.religion.misc_83857 P=1.0000 cat=talk.religion.misc
+      xref cantaloupe srv cs cmu edu alt atheism 53484 talk religion misc 83857 talk origins 40978 newsgroups alt atheism talk religion misc talk origins path cantaloupe srv cs cmu edu magnesium club cc cmu…
+  [2] doc_id=talk.religion.misc_84215 P=1.0000 cat=talk.religion.misc
+      xref cantaloupe srv cs cmu edu alt atheism 53933 talk religion misc 84215 talk origins 41109 path cantaloupe srv cs cmu edu crabapple srv cs cmu edu fs7 ece cmu edu europa eng gtefsd com howland resto…
+  [3] doc_id=alt.atheism_53296 P=1.0000 cat=alt.atheism
+      xref cantaloupe srv cs cmu edu alt atheism 53296 talk religion misc 83685 talk origins 40931 path cantaloupe srv cs cmu edu crabapple srv cs cmu edu bb3 andrew cmu edu news sei cmu edu cis ohio state…
+  [4] doc_id=talk.religion.misc_84114 P=1.0000 cat=talk.religion.misc
+      xref cantaloupe srv cs cmu edu alt atheism 53796 talk religion misc 84114 talk origins 41081 path cantaloupe srv cs cmu edu crabapple srv cs cmu edu fs7 ece cmu edu europa eng gtefsd com howland resto…
+  [5] doc_id=alt.atheism_53352 P=1.0000 cat=alt.atheism
+      xref cantaloupe srv cs cmu edu alt atheism 53352 talk religion misc 83739 talk origins 40950 path cantaloupe srv cs cmu edu magnesium club cc cmu edu news sei cmu edu cis ohio state edu zaphod mps ohi…
+
+Boundary documents (highest entropy in cluster 19):
+  [1] doc_id=talk.religion.misc_83857 H=-0.0000 cat=talk.religion.misc
+      Top-2 cluster probs: C19: 1.000 | C29: 0.000
+      xref cantaloupe srv cs cmu edu alt atheism 53484 talk religion misc 83857 talk origins 40978 newsgroups alt atheism talk religion misc talk origins path cantaloupe srv cs cmu edu magnesium club cc cmu…
+  [2] doc_id=talk.religion.misc_84215 H=-0.0000 cat=talk.religion.misc
+      Top-2 cluster probs: C19: 1.000 | C29: 0.000
+      xref cantaloupe srv cs cmu edu alt atheism 53933 talk religion misc 84215 talk origins 41109 path cantaloupe srv cs cmu edu crabapple srv cs cmu edu fs7 ece cmu edu europa eng gtefsd com howland resto…
+  [3] doc_id=alt.atheism_53296 H=-0.0000 cat=alt.atheism
+      Top-2 cluster probs: C19: 1.000 | C29: 0.000
+      xref cantaloupe srv cs cmu edu alt atheism 53296 talk religion misc 83685 talk origins 40931 path cantaloupe srv cs cmu edu crabapple srv cs cmu edu bb3 andrew cmu edu news sei cmu edu cis ohio state…
+  [4] doc_id=talk.religion.misc_84114 H=-0.0000 cat=talk.religion.misc
+      Top-2 cluster probs: C19: 1.000 | C29: 0.000
+      xref cantaloupe srv cs cmu edu alt atheism 53796 talk religion misc 84114 talk origins 41081 path cantaloupe srv cs cmu edu crabapple srv cs cmu edu fs7 ece cmu edu europa eng gtefsd com howland resto…
+  [5] doc_id=alt.atheism_53352 H=-0.0000 cat=alt.atheism
+      Top-2 cluster probs: C19: 1.000 | C29: 0.000
+      xref cantaloupe srv cs cmu edu alt atheism 53352 talk religion misc 83739 talk origins 40950 path cantaloupe srv cs cmu edu magnesium club cc cmu edu news sei cmu edu cis ohio state edu zaphod mps ohi…
+
+────────────────────────────────────────────────────────────────────────────────
+CLUSTER 20  (27 documents as dominant)
+────────────────────────────────────────────────────────────────────────────────
+
+Category distribution (dominant-assigned docs):
+  talk.religion.misc                         15  (55.6%)  ███████████████████████████
+  alt.atheism                                12  (44.4%)  ██████████████████████
+
+Core documents (highest P(cluster 20)):
+  [1] doc_id=talk.religion.misc_83958 P=1.0000 cat=talk.religion.misc
+      xref cantaloupe srv cs cmu edu talk abortion 120964 alt atheism 53612 talk religion misc 83958 path cantaloupe srv cs cmu edu magnesium club cc cmu edu news sei cmu edu cis ohio state edu pacific mps…
+  [2] doc_id=alt.atheism_53204 P=1.0000 cat=alt.atheism
+      xref cantaloupe srv cs cmu edu talk abortion 120645 alt atheism 53204 talk religion misc 83615 path cantaloupe srv cs cmu edu das news harvard edu noc near net uunet gatekeeper us oracle com barrnet n…
+  [3] doc_id=alt.atheism_53453 P=1.0000 cat=alt.atheism
+      xref cantaloupe srv cs cmu edu talk abortion 120822 alt atheism 53453 talk religion misc 83840 path cantaloupe srv cs cmu edu das news harvard edu noc near net howland reston ans net bogus sura net da…
+  [4] doc_id=talk.religion.misc_83840 P=1.0000 cat=talk.religion.misc
+      xref cantaloupe srv cs cmu edu talk abortion 120822 alt atheism 53453 talk religion misc 83840 path cantaloupe srv cs cmu edu das news harvard edu noc near net howland reston ans net bogus sura net da…
+  [5] doc_id=talk.religion.misc_84356 P=1.0000 cat=talk.religion.misc
+      xref cantaloupe srv cs cmu edu talk abortion 121541 alt atheism 54162 talk religion misc 84356 newsgroups talk abortion alt atheism talk religion misc path cantaloupe srv cs cmu edu crabapple srv cs c…
+
+Boundary documents (highest entropy in cluster 20):
+  [1] doc_id=talk.religion.misc_83958 H=-0.0000 cat=talk.religion.misc
+      Top-2 cluster probs: C20: 1.000 | C29: 0.000
+      xref cantaloupe srv cs cmu edu talk abortion 120964 alt atheism 53612 talk religion misc 83958 path cantaloupe srv cs cmu edu magnesium club cc cmu edu news sei cmu edu cis ohio state edu pacific mps…
+  [2] doc_id=alt.atheism_53204 H=-0.0000 cat=alt.atheism
+      Top-2 cluster probs: C20: 1.000 | C29: 0.000
+      xref cantaloupe srv cs cmu edu talk abortion 120645 alt atheism 53204 talk religion misc 83615 path cantaloupe srv cs cmu edu das news harvard edu noc near net uunet gatekeeper us oracle com barrnet n…
+  [3] doc_id=alt.atheism_53453 H=-0.0000 cat=alt.atheism
+      Top-2 cluster probs: C20: 1.000 | C29: 0.000
+      xref cantaloupe srv cs cmu edu talk abortion 120822 alt atheism 53453 talk religion misc 83840 path cantaloupe srv cs cmu edu das news harvard edu noc near net howland reston ans net bogus sura net da…
+  [4] doc_id=talk.religion.misc_83840 H=-0.0000 cat=talk.religion.misc
+      Top-2 cluster probs: C20: 1.000 | C29: 0.000
+      xref cantaloupe srv cs cmu edu talk abortion 120822 alt atheism 53453 talk religion misc 83840 path cantaloupe srv cs cmu edu das news harvard edu noc near net howland reston ans net bogus sura net da…
+  [5] doc_id=talk.religion.misc_84356 H=-0.0000 cat=talk.religion.misc
+      Top-2 cluster probs: C20: 1.000 | C29: 0.000
+      xref cantaloupe srv cs cmu edu talk abortion 121541 alt atheism 54162 talk religion misc 84356 newsgroups talk abortion alt atheism talk religion misc path cantaloupe srv cs cmu edu crabapple srv cs c…
+
+────────────────────────────────────────────────────────────────────────────────
+CLUSTER 21  (339 documents as dominant)
+────────────────────────────────────────────────────────────────────────────────
+
+Category distribution (dominant-assigned docs):
+  talk.politics.mideast                     325  (95.9%)  ███████████████████████████████████████████████
+  talk.politics.misc                         10  ( 2.9%)  █
+  soc.religion.christian                      2  ( 0.6%)  
+  rec.motorcycles                             1  ( 0.3%)  
+  talk.religion.misc                          1  ( 0.3%)  
+
+Core documents (highest P(cluster 21)):
+  [1] doc_id=talk.politics.mideast_76042 P=1.0000 cat=talk.politics.mideast
+      xref cantaloupe srv cs cmu edu soc culture turkish 33665 talk politics mideast 76042 talk politics soviet 23435 soc culture greek 21722 newsgroups soc culture turkish talk politics mideast talk politi…
+  [2] doc_id=talk.politics.mideast_75371 P=1.0000 cat=talk.politics.mideast
+      xref cantaloupe srv cs cmu edu talk politics mideast 75371 talk politics soviet 22958 soc history 20512 soc culture soviet 18098 path cantaloupe srv cs cmu edu das news harvard edu ogicse uwm edu cs u…
+  [3] doc_id=talk.politics.mideast_76363 P=1.0000 cat=talk.politics.mideast
+      xref cantaloupe srv cs cmu edu talk politics mideast 76363 talk politics soviet 23630 soc history 21228 soc culture soviet 18730 soc culture turkish 34167 soc rights human 14283 path cantaloupe srv cs…
+  [4] doc_id=talk.politics.mideast_76362 P=1.0000 cat=talk.politics.mideast
+      xref cantaloupe srv cs cmu edu talk politics mideast 76362 soc culture soviet 18729 soc culture yugoslavia 17329 soc culture jewish 63844 soc culture turkish 34166 soc culture iranian 22957 path canta…
+  [5] doc_id=talk.politics.mideast_76361 P=1.0000 cat=talk.politics.mideast
+      xref cantaloupe srv cs cmu edu talk politics mideast 76361 soc history 21227 soc culture turkish 34165 soc culture bosna herzgvna 3455 soc culture jewish 63843 path cantaloupe srv cs cmu edu magnesium…
+
+Boundary documents (highest entropy in cluster 21):
+  [1] doc_id=talk.politics.mideast_76411 H=0.0000 cat=talk.politics.mideast
+      Top-2 cluster probs: C21: 1.000 | C8: 0.000
+      xref cantaloupe srv cs cmu edu talk politics misc 180084 talk politics mideast 76411 newsgroups talk politics misc talk politics mideast path cantaloupe srv cs cmu edu magnesium club cc cmu edu news s…
+  [2] doc_id=talk.politics.mideast_76252 H=0.0000 cat=talk.politics.mideast
+      Top-2 cluster probs: C21: 1.000 | C8: 0.000
+      xref cantaloupe srv cs cmu edu talk politics misc 179489 talk politics mideast 76252 newsgroups talk politics misc talk politics mideast path cantaloupe srv cs cmu edu magnesium club cc cmu edu news s…
+  [3] doc_id=talk.politics.mideast_76143 H=0.0000 cat=talk.politics.mideast
+      Top-2 cluster probs: C21: 1.000 | C8: 0.000
+      xref cantaloupe srv cs cmu edu talk politics mideast 76143 soc culture iranian 22756 newsgroups talk politics mideast soc culture iranian path cantaloupe srv cs cmu edu crabapple srv cs cmu edu bb3 an…
+  [4] doc_id=talk.politics.mideast_76148 H=0.0000 cat=talk.politics.mideast
+      Top-2 cluster probs: C21: 1.000 | C8: 0.000
+      xref cantaloupe srv cs cmu edu talk politics misc 179149 talk politics mideast 76148 newsgroups talk politics misc talk politics mideast path cantaloupe srv cs cmu edu crabapple srv cs cmu edu anwar f…
+  [5] doc_id=talk.politics.mideast_76080 H=0.0000 cat=talk.politics.mideast
+      Top-2 cluster probs: C21: 1.000 | C8: 0.000
+      xref cantaloupe srv cs cmu edu alt politics clinton 29449 alt president clinton 4882 talk politics mideast 76080 newsgroups alt politics clinton alt president clinton talk politics mideast path cantal…
+
+────────────────────────────────────────────────────────────────────────────────
+CLUSTER 22  (273 documents as dominant)
+────────────────────────────────────────────────────────────────────────────────
+
+Category distribution (dominant-assigned docs):
+  comp.os.ms-windows.misc                   126  (46.2%)  ███████████████████████
+  comp.sys.mac.hardware                      68  (24.9%)  ████████████
+  comp.sys.ibm.pc.hardware                   19  ( 7.0%)  ███
+  misc.forsale                               19  ( 7.0%)  ███
+  comp.windows.x                             17  ( 6.2%)  ███
+  sci.electronics                            14  ( 5.1%)  ██
+  comp.graphics                              10  ( 3.7%)  █
+
+Core documents (highest P(cluster 22)):
+  [1] doc_id=comp.os.ms-windows.misc_9545 P=1.0000 cat=comp.os.ms-windows.misc
+      newsgroups comp os ms windows misc path cantaloupe srv cs cmu edu crabapple srv cs cmu edu bb3 andrew cmu edu news sei cmu edu cis ohio state edu zaphod mps ohio state edu darwin sura net haven umd ed…
+  [2] doc_id=comp.os.ms-windows.misc_10111 P=1.0000 cat=comp.os.ms-windows.misc
+      newsgroups comp os ms windows misc path cantaloupe srv cs cmu edu magnesium club cc cmu edu news sei cmu edu cis ohio state edu zaphod mps ohio state edu ub newserve sarah uacsc2 albany edu jc924 from…
+  [3] doc_id=comp.sys.ibm.pc.hardware_60241 P=1.0000 cat=comp.sys.ibm.pc.hardware
+      newsgroups comp sys ibm pc hardware path cantaloupe srv cs cmu edu crabapple srv cs cmu edu fs7 ece cmu edu europa eng gtefsd com howland reston ans net newsserver jvnc net newsserver technet sg nuscc…
+  [4] doc_id=comp.os.ms-windows.misc_9999 P=1.0000 cat=comp.os.ms-windows.misc
+      newsgroups comp os ms windows misc path cantaloupe srv cs cmu edu crabapple srv cs cmu edu bb3 andrew cmu edu news sei cmu edu cis ohio state edu zaphod mps ohio state edu howland reston ans net torn…
+  [5] doc_id=comp.os.ms-windows.misc_10100 P=1.0000 cat=comp.os.ms-windows.misc
+      path cantaloupe srv cs cmu edu magnesium club cc cmu edu news sei cmu edu cis ohio state edu pacific mps ohio state edu zaphod mps ohio state edu howland reston ans net noc near net argo hks com carin…
+
+Boundary documents (highest entropy in cluster 22):
+  [1] doc_id=comp.sys.mac.hardware_52224 H=0.6894 cat=comp.sys.mac.hardware
+      Top-2 cluster probs: C22: 0.543 | C27: 0.457
+      newsgroups comp sys mac hardware path cantaloupe srv cs cmu edu das news harvard edu noc near net howland reston ans net usc sdd hp com decwrl apple mumbo apple com gallant apple com nuntius from kevi…
+  [2] doc_id=comp.sys.mac.hardware_51780 H=0.6836 cat=comp.sys.mac.hardware
+      Top-2 cluster probs: C22: 0.569 | C27: 0.431
+      newsgroups comp sys mac hardware path cantaloupe srv cs cmu edu das news harvard edu noc near net howland reston ans net wupost csus edu netcom com wgw from william g wright subject se rom message id…
+  [3] doc_id=sci.electronics_52742 H=0.3252 cat=sci.electronics
+      Top-2 cluster probs: C22: 0.901 | C27: 0.099
+      path cantaloupe srv cs cmu edu crabapple srv cs cmu edu fs7 ece cmu edu europa eng gtefsd com gatech swrinde zaphod mps ohio state edu ub galileo cc rochester edu ee rochester edu neale from reg neale…
+  [4] doc_id=comp.sys.mac.hardware_51786 H=0.0578 cat=comp.sys.mac.hardware
+      Top-2 cluster probs: C22: 0.990 | C27: 0.010
+      newsgroups comp sys mac hardware path cantaloupe srv cs cmu edu das news harvard edu noc near net uunet wyvern dashley from doug ashley subject re se rom message id organization wyvern com references…
+  [5] doc_id=misc.forsale_76834 H=0.0021 cat=misc.forsale
+      Top-2 cluster probs: C22: 1.000 | C7: 0.000
+      newsgroups misc forsale path cantaloupe srv cs cmu edu magnesium club cc cmu edu news sei cmu edu cis ohio state edu zaphod mps ohio state edu magnus acs ohio state edu scrume from stephen k crume sub…
+
+────────────────────────────────────────────────────────────────────────────────
+CLUSTER 23  (446 documents as dominant)
+────────────────────────────────────────────────────────────────────────────────
+
+Category distribution (dominant-assigned docs):
+  talk.religion.misc                        163  (36.5%)  ██████████████████
+  soc.religion.christian                     79  (17.7%)  ████████
+  talk.politics.guns                         71  (15.9%)  ███████
+  talk.politics.misc                         64  (14.3%)  ███████
+  alt.atheism                                63  (14.1%)  ███████
+  talk.politics.mideast                       3  ( 0.7%)  
+  sci.med                                     2  ( 0.4%)  
+  sci.space                                   1  ( 0.2%)  
+
+Core documents (highest P(cluster 23)):
+  [1] doc_id=talk.religion.misc_84068 P=1.0000 cat=talk.religion.misc
+      xref cantaloupe srv cs cmu edu talk religion misc 84068 alt atheism 53752 newsgroups talk religion misc alt atheism path cantaloupe srv cs cmu edu crabapple srv cs cmu edu bb3 andrew cmu edu news sei…
+  [2] doc_id=talk.religion.misc_84023 P=1.0000 cat=talk.religion.misc
+      xref cantaloupe srv cs cmu edu talk religion misc 84023 talk politics guns 54757 soc culture jewish 63436 path cantaloupe srv cs cmu edu crabapple srv cs cmu edu bb3 andrew cmu edu news sei cmu edu ma…
+  [3] doc_id=alt.atheism_53456 P=1.0000 cat=alt.atheism
+      newsgroups alt atheism path cantaloupe srv cs cmu edu das news harvard edu noc near net howland reston ans net torn nott bnrgate bmerh85 bmers30 dgraham from douglas graham subject re cruel was re pol…
+  [4] doc_id=talk.religion.misc_83999 P=1.0000 cat=talk.religion.misc
+      path cantaloupe srv cs cmu edu crabapple srv cs cmu edu bb3 andrew cmu edu news sei cmu edu cis ohio state edu zaphod mps ohio state edu cs utexas edu not for mail from newsgroups talk religion misc s…
+  [5] doc_id=alt.atheism_53457 P=1.0000 cat=alt.atheism
+      newsgroups alt atheism path cantaloupe srv cs cmu edu das news harvard edu noc near net howland reston ans net bogus sura net udel news intercon com psinntp wrldlnk usenet from james f tims subject re…
+
+Boundary documents (highest entropy in cluster 23):
+  [1] doc_id=soc.religion.christian_21396 H=0.9752 cat=soc.religion.christian
+      Top-2 cluster probs: C23: 0.554 | C10: 0.291
+      path cantaloupe srv cs cmu edu das news harvard edu noc near net howland reston ans net newsserver jvnc net rutgers igor rutgers edu athos rutgers edu christian from newsgroups soc religion christian…
+  [2] doc_id=alt.atheism_53101 H=0.6763 cat=alt.atheism
+      Top-2 cluster probs: C23: 0.593 | C3: 0.407
+      xref cantaloupe srv cs cmu edu talk abortion 120548 alt atheism 53101 talk religion misc 83564 path cantaloupe srv cs cmu edu das news harvard edu noc near net howland reston ans net agate ames olivea…
+  [3] doc_id=alt.atheism_51176 H=0.6729 cat=alt.atheism
+      Top-2 cluster probs: C23: 0.600 | C3: 0.400
+      path cantaloupe srv cs cmu edu das news harvard edu husc news harvard edu hsdndev yale yale edu nigel msen com sdd hp com zaphod mps ohio state edu cs utexas edu geraldo cc utexas edu portal austin ib…
+  [4] doc_id=alt.atheism_51220 H=0.6644 cat=alt.atheism
+      Top-2 cluster probs: C23: 0.619 | C3: 0.381
+      newsgroups alt atheism path cantaloupe srv cs cmu edu crabapple srv cs cmu edu fs7 ece cmu edu europa eng gtefsd com howland reston ans net noc near net uunet psinntp wrldlnk usenet from robert knowle…
+  [5] doc_id=soc.religion.christian_20775 H=0.6382 cat=soc.religion.christian
+      Top-2 cluster probs: C23: 0.664 | C10: 0.336
+      path cantaloupe srv cs cmu edu crabapple srv cs cmu edu fs7 ece cmu edu europa eng gtefsd com gatech psuvax1 rutgers igor rutgers edu geneva rutgers edu christian from newsgroups soc religion christia…
+
+────────────────────────────────────────────────────────────────────────────────
+CLUSTER 24  (434 documents as dominant)
+────────────────────────────────────────────────────────────────────────────────
+
+Category distribution (dominant-assigned docs):
+  rec.sport.hockey                          431  (99.3%)  █████████████████████████████████████████████████
+  misc.forsale                                2  ( 0.5%)  
+  rec.sport.baseball                          1  ( 0.2%)  
+
+Core documents (highest P(cluster 24)):
+  [1] doc_id=rec.sport.hockey_53932 P=1.0000 cat=rec.sport.hockey
+      path cantaloupe srv cs cmu edu crabapple srv cs cmu edu fs7 ece cmu edu europa eng gtefsd com howland reston ans net zaphod mps ohio state edu uwm edu msuinfo netnews upenn edu kkeller from keith kell…
+  [2] doc_id=rec.sport.hockey_53861 P=1.0000 cat=rec.sport.hockey
+      newsgroups rec sport hockey path cantaloupe srv cs cmu edu crabapple srv cs cmu edu fs7 ece cmu edu europa eng gtefsd com gatech asuvax cs utexas edu uwm edu spool mu edu torn csd unb ca c5ff from coo…
+  [3] doc_id=rec.sport.hockey_53834 P=1.0000 cat=rec.sport.hockey
+      path cantaloupe srv cs cmu edu magnesium club cc cmu edu news sei cmu edu cis ohio state edu pacific mps ohio state edu zaphod mps ohio state edu howland reston ans net gatech ukma netnews louisville…
+  [4] doc_id=rec.sport.hockey_53835 P=1.0000 cat=rec.sport.hockey
+      newsgroups rec sport hockey path cantaloupe srv cs cmu edu rochester rochester udel wupost howland reston ans net usc sdd hp com hpscit sc hp com cupnews0 cup hp com hppad waterloo hp com idacom andre…
+  [5] doc_id=rec.sport.hockey_53836 P=1.0000 cat=rec.sport.hockey
+      newsgroups rec sport hockey path cantaloupe srv cs cmu edu magnesium club cc cmu edu news sei cmu edu cis ohio state edu zaphod mps ohio state edu sdd hp com nigel msen com yale edu yale gumby destroy…
+
+Boundary documents (highest entropy in cluster 24):
+  [1] doc_id=rec.sport.hockey_54137 H=0.6671 cat=rec.sport.hockey
+      Top-2 cluster probs: C24: 0.614 | C2: 0.386
+      xref cantaloupe srv cs cmu edu rec sport hockey 54137 soc culture canada 17415 newsgroups rec sport hockey soc culture canada path cantaloupe srv cs cmu edu rochester udel gatech howland reston ans ne…
+  [2] doc_id=rec.sport.hockey_53680 H=0.6343 cat=rec.sport.hockey
+      Top-2 cluster probs: C24: 0.670 | C2: 0.330
+      newsgroups rec sport hockey path cantaloupe srv cs cmu edu das news harvard edu noc near net howland reston ans net zaphod mps ohio state edu sol ctr columbia edu destroyer cs ubc ca news uvic ca huds…
+  [3] doc_id=rec.sport.hockey_53590 H=0.6001 cat=rec.sport.hockey
+      Top-2 cluster probs: C24: 0.712 | C2: 0.288
+      newsgroups rec sport hockey path cantaloupe srv cs cmu edu magnesium club cc cmu edu news sei cmu edu fs7 ece cmu edu europa eng gtefsd com emory swrinde zaphod mps ohio state edu uwm edu cs utexas ed…
+  [4] doc_id=rec.sport.hockey_54059 H=0.5825 cat=rec.sport.hockey
+      Top-2 cluster probs: C24: 0.731 | C2: 0.269
+      path cantaloupe srv cs cmu edu rochester udel news udel edu darwin sura net gatech howland reston ans net zaphod mps ohio state edu uwm edu caen klaty from brad alan klaty newsgroups rec sport hockey…
+  [5] doc_id=rec.sport.hockey_53999 H=0.5187 cat=rec.sport.hockey
+      Top-2 cluster probs: C24: 0.786 | C2: 0.214
+      path cantaloupe srv cs cmu edu magnesium club cc cmu edu news sei cmu edu bb3 andrew cmu edu andrew cmu edu mk55 from matthew t keating newsgroups rec sport hockey subject bowman needs credit date fri…
+
+────────────────────────────────────────────────────────────────────────────────
+CLUSTER 25  (533 documents as dominant)
+────────────────────────────────────────────────────────────────────────────────
+
+Category distribution (dominant-assigned docs):
+  talk.politics.guns                        306  (57.4%)  ████████████████████████████
+  talk.politics.misc                        106  (19.9%)  █████████
+  talk.religion.misc                         98  (18.4%)  █████████
+  alt.atheism                                 7  ( 1.3%)  
+  sci.med                                     4  ( 0.8%)  
+  sci.space                                   3  ( 0.6%)  
+  talk.politics.mideast                       3  ( 0.6%)  
+  rec.autos                                   2  ( 0.4%)  
+
+Core documents (highest P(cluster 25)):
+  [1] doc_id=talk.politics.misc_179016 P=1.0000 cat=talk.politics.misc
+      newsgroups talk politics misc path cantaloupe srv cs cmu edu magnesium club cc cmu edu news sei cmu edu fs7 ece cmu edu europa eng gtefsd com howland reston ans net usc cs utexas edu uwm edu linac att…
+  [2] doc_id=talk.politics.guns_54710 P=1.0000 cat=talk.politics.guns
+      newsgroups talk politics guns path cantaloupe srv cs cmu edu magnesium club cc cmu edu news sei cmu edu cis ohio state edu zaphod mps ohio state edu darwin sura net sgiblab pacbell com iggy gw vitalin…
+  [3] doc_id=talk.politics.misc_178926 P=1.0000 cat=talk.politics.misc
+      path cantaloupe srv cs cmu edu das news harvard edu noc near net howland reston ans net zaphod mps ohio state edu saimiri primate wisc edu news larc nasa gov news larc nasa gov jason from jason austin…
+  [4] doc_id=talk.politics.misc_178927 P=1.0000 cat=talk.politics.misc
+      xref cantaloupe srv cs cmu edu talk politics misc 178927 talk politics guns 54556 misc legal 60939 path cantaloupe srv cs cmu edu das news harvard edu noc near net howland reston ans net usenet ins cw…
+  [5] doc_id=talk.politics.misc_178933 P=1.0000 cat=talk.politics.misc
+      path cantaloupe srv cs cmu edu das news harvard edu noc near net howland reston ans net europa eng gtefsd com emory sol ctr columbia edu eff news kei com ub dsinc netnews upenn edu cronkite ocis templ…
+
+Boundary documents (highest entropy in cluster 25):
+  [1] doc_id=talk.religion.misc_84015 H=0.8490 cat=talk.religion.misc
+      Top-2 cluster probs: C25: 0.587 | C23: 0.352
+      xref cantaloupe srv cs cmu edu sci skeptic 43567 talk politics misc 179128 talk religion misc 84015 misc legal 61062 newsgroups sci skeptic talk politics misc talk religion misc misc legal path cantal…
+  [2] doc_id=talk.politics.guns_55125 H=0.6884 cat=talk.politics.guns
+      Top-2 cluster probs: C25: 0.549 | C1: 0.451
+      newsgroups talk politics guns path cantaloupe srv cs cmu edu das news harvard edu noc near net howland reston ans net usenet ins cwru edu icd ab com icd ab com kdw from kenneth d whitehead subject re…
+  [3] doc_id=talk.politics.guns_54865 H=0.6784 cat=talk.politics.guns
+      Top-2 cluster probs: C25: 0.586 | C1: 0.414
+      xref cantaloupe srv cs cmu edu talk politics guns 54865 alt activism 43080 misc legal 61145 path cantaloupe srv cs cmu edu magnesium club cc cmu edu news sei cmu edu cis ohio state edu zaphod mps ohio…
+  [4] doc_id=talk.politics.misc_178738 H=0.6649 cat=talk.politics.misc
+      Top-2 cluster probs: C25: 0.618 | C1: 0.382
+      xref cantaloupe srv cs cmu edu alt conspiracy 21831 talk politics misc 178738 talk religion misc 83724 newsgroups alt conspiracy talk politics misc talk religion misc path cantaloupe srv cs cmu edu ma…
+  [5] doc_id=talk.politics.misc_178790 H=0.6320 cat=talk.politics.misc
+      Top-2 cluster probs: C25: 0.673 | C1: 0.327
+      xref cantaloupe srv cs cmu edu alt politics clinton 29395 talk politics misc 178790 path cantaloupe srv cs cmu edu rochester rochester udel bogus sura net howland reston ans net usenet ins cwru edu cl…
+
+────────────────────────────────────────────────────────────────────────────────
+CLUSTER 26  (134 documents as dominant)
+────────────────────────────────────────────────────────────────────────────────
+
+Category distribution (dominant-assigned docs):
+  talk.politics.misc                         68  (50.7%)  █████████████████████████
+  talk.religion.misc                         63  (47.0%)  ███████████████████████
+  alt.atheism                                 1  ( 0.7%)  
+  soc.religion.christian                      1  ( 0.7%)  
+  talk.politics.mideast                       1  ( 0.7%)  
+
+Core documents (highest P(cluster 26)):
+  [1] doc_id=talk.politics.misc_178592 P=1.0000 cat=talk.politics.misc
+      xref cantaloupe srv cs cmu edu talk abortion 120662 talk politics misc 178592 talk religion misc 83635 newsgroups talk abortion talk politics misc talk religion misc path cantaloupe srv cs cmu edu cra…
+  [2] doc_id=talk.politics.misc_178517 P=1.0000 cat=talk.politics.misc
+      xref cantaloupe srv cs cmu edu talk abortion 120569 talk politics misc 178517 talk religion misc 83580 path cantaloupe srv cs cmu edu crabapple srv cs cmu edu fs7 ece cmu edu europa eng gtefsd com how…
+  [3] doc_id=talk.religion.misc_83458 P=1.0000 cat=talk.religion.misc
+      xref cantaloupe srv cs cmu edu talk abortion 120360 talk politics misc 178321 talk religion misc 83458 path cantaloupe srv cs cmu edu crabapple srv cs cmu edu fs7 ece cmu edu europa eng gtefsd com emo…
+  [4] doc_id=talk.religion.misc_83459 P=1.0000 cat=talk.religion.misc
+      xref cantaloupe srv cs cmu edu talk abortion 120361 talk politics misc 178322 talk religion misc 83459 path cantaloupe srv cs cmu edu crabapple srv cs cmu edu fs7 ece cmu edu europa eng gtefsd com how…
+  [5] doc_id=talk.politics.misc_178512 P=1.0000 cat=talk.politics.misc
+      xref cantaloupe srv cs cmu edu talk abortion 120566 talk religion misc 83577 talk politics misc 178512 newsgroups talk abortion talk religion misc talk politics misc path cantaloupe srv cs cmu edu cra…
+
+Boundary documents (highest entropy in cluster 26):
+  [1] doc_id=talk.religion.misc_83906 H=0.0000 cat=talk.religion.misc
+      Top-2 cluster probs: C26: 1.000 | C23: 0.000
+      xref cantaloupe srv cs cmu edu talk abortion 120904 talk politics misc 178993 talk religion misc 83906 newsgroups talk abortion talk politics misc talk religion misc path cantaloupe srv cs cmu edu das…
+  [2] doc_id=talk.politics.misc_178993 H=0.0000 cat=talk.politics.misc
+      Top-2 cluster probs: C26: 1.000 | C23: 0.000
+      xref cantaloupe srv cs cmu edu talk abortion 120904 talk politics misc 178993 talk religion misc 83906 newsgroups talk abortion talk politics misc talk religion misc path cantaloupe srv cs cmu edu das…
+  [3] doc_id=talk.religion.misc_83606 H=0.0000 cat=talk.religion.misc
+      Top-2 cluster probs: C26: 1.000 | C23: 0.000
+      xref cantaloupe srv cs cmu edu talk abortion 120627 talk politics misc 178553 talk religion misc 83606 path cantaloupe srv cs cmu edu crabapple srv cs cmu edu fs7 ece cmu edu europa eng gtefsd com gat…
+  [4] doc_id=talk.politics.misc_176869 H=0.0000 cat=talk.politics.misc
+      Top-2 cluster probs: C26: 1.000 | C23: 0.000
+      xref cantaloupe srv cs cmu edu talk politics misc 176869 alt sex 110443 soc men 67802 misc legal 59959 path cantaloupe srv cs cmu edu das news harvard edu husc news harvard edu hsdndev yale gumby wupo…
+  [5] doc_id=talk.religion.misc_83493 H=0.0000 cat=talk.religion.misc
+      Top-2 cluster probs: C26: 1.000 | C23: 0.000
+      xref cantaloupe srv cs cmu edu talk abortion 120438 talk politics misc 178414 talk religion misc 83493 newsgroups talk abortion talk politics misc talk religion misc path cantaloupe srv cs cmu edu mag…
+
+────────────────────────────────────────────────────────────────────────────────
+CLUSTER 27  (1066 documents as dominant)
+────────────────────────────────────────────────────────────────────────────────
+
+Category distribution (dominant-assigned docs):
+  comp.sys.mac.hardware                     409  (38.4%)  ███████████████████
+  comp.sys.ibm.pc.hardware                  234  (22.0%)  ██████████
+  misc.forsale                              207  (19.4%)  █████████
+  sci.electronics                           130  (12.2%)  ██████
+  comp.os.ms-windows.misc                    63  ( 5.9%)  ██
+  comp.windows.x                             10  ( 0.9%)  
+  comp.graphics                               6  ( 0.6%)  
+  rec.autos                                   2  ( 0.2%)  
+
+Core documents (highest P(cluster 27)):
+  [1] doc_id=comp.sys.ibm.pc.hardware_60454 P=1.0000 cat=comp.sys.ibm.pc.hardware
+      newsgroups comp sys ibm pc hardware path cantaloupe srv cs cmu edu das news harvard edu noc near net howland reston ans net spool mu edu sol ctr columbia edu eff ddsw1 chinet dhartung from dan hartung…
+  [2] doc_id=comp.sys.mac.hardware_51879 P=1.0000 cat=comp.sys.mac.hardware
+      newsgroups comp sys mac hardware path cantaloupe srv cs cmu edu magnesium club cc cmu edu news sei cmu edu cis ohio state edu zaphod mps ohio state edu swrinde elroy jpl nasa gov ames purdue mentor cc…
+  [3] doc_id=comp.sys.mac.hardware_51884 P=1.0000 cat=comp.sys.mac.hardware
+      path cantaloupe srv cs cmu edu das news harvard edu ogicse lclark corbo from beth corbo newsgroups comp sys mac hardware subject re non apple mini docks available message id date 20 apr 93 03 46 14 gm…
+  [4] doc_id=comp.sys.mac.hardware_51887 P=1.0000 cat=comp.sys.mac.hardware
+      path cantaloupe srv cs cmu edu rochester udel bogus sura net howland reston ans net usc elroy jpl nasa gov sdd hp com nigel msen com heifetz mbsun mlb org mudos iunet hal9k barry davis from barry davi…
+  [5] doc_id=comp.sys.mac.hardware_51889 P=1.0000 cat=comp.sys.mac.hardware
+      path cantaloupe srv cs cmu edu rochester udel bogus sura net howland reston ans net spool mu edu enterpoop mit edu senator bedfellow mit edu athena mit edu thewho from derek a fong newsgroups comp sys…
+
+Boundary documents (highest entropy in cluster 27):
+  [1] doc_id=comp.sys.ibm.pc.hardware_60211 H=0.7209 cat=comp.sys.ibm.pc.hardware
+      Top-2 cluster probs: C27: 0.511 | C7: 0.484
+      path cantaloupe srv cs cmu edu crabapple srv cs cmu edu fs7 ece cmu edu europa eng gtefsd com howland reston ans net zaphod mps ohio state edu malgudi oar net uoft02 utoledo edu cscon101 from newsgrou…
+  [2] doc_id=comp.sys.mac.hardware_51973 H=0.7053 cat=comp.sys.mac.hardware
+      Top-2 cluster probs: C27: 0.520 | C18: 0.478
+      path cantaloupe srv cs cmu edu crabapple srv cs cmu edu bb3 andrew cmu edu news sei cmu edu cis ohio state edu zaphod mps ohio state edu cs utexas edu uunet comp vuw ac nz zephyr grace cri nz zephyr g…
+  [3] doc_id=sci.electronics_53861 H=0.6931 cat=sci.electronics
+      Top-2 cluster probs: C27: 0.502 | C14: 0.498
+      xref cantaloupe srv cs cmu edu sci electronics 53861 comp theory 7169 path cantaloupe srv cs cmu edu rochester rochester udel darwin sura net emory ogicse netnews nwnet net news u washington edu carso…
+  [4] doc_id=misc.forsale_76939 H=0.6905 cat=misc.forsale
+      Top-2 cluster probs: C27: 0.536 | C0: 0.464
+      path cantaloupe srv cs cmu edu das news harvard edu noc near net howland reston ans net zaphod mps ohio state edu malgudi oar net ucbeh san uc edu ucunix san uc edu babbage ece uc edu uceng uc edu ccc…
+  [5] doc_id=misc.forsale_75879 H=0.6904 cat=misc.forsale
+      Top-2 cluster probs: C27: 0.537 | C0: 0.463
+      xref cantaloupe srv cs cmu edu comp sys 3b1 7681 misc forsale 75879 path cantaloupe srv cs cmu edu das news harvard edu noc near net howland reston ans net agate dog ee lbl gov network ucsd edu pacbel…
+
+────────────────────────────────────────────────────────────────────────────────
+CLUSTER 28  (689 documents as dominant)
+────────────────────────────────────────────────────────────────────────────────
+
+Category distribution (dominant-assigned docs):
+  comp.windows.x                            589  (85.5%)  ██████████████████████████████████████████
+  comp.os.ms-windows.misc                    68  ( 9.9%)  ████
+  comp.sys.mac.hardware                      11  ( 1.6%)  
+  comp.graphics                              10  ( 1.5%)  
+  comp.sys.ibm.pc.hardware                    9  ( 1.3%)  
+  sci.electronics                             2  ( 0.3%)  
+
+Core documents (highest P(cluster 28)):
+  [1] doc_id=comp.windows.x_67483 P=1.0000 cat=comp.windows.x
+      xref cantaloupe srv cs cmu edu comp windows open look 8469 comp windows x 67483 path cantaloupe srv cs cmu edu magnesium club cc cmu edu pitt edu uunet pipex sunic sics se eua ericsson se euax1i2c05 e…
+  [2] doc_id=comp.windows.x_67334 P=1.0000 cat=comp.windows.x
+      newsgroups comp windows x path cantaloupe srv cs cmu edu rochester udel darwin sura net spool mu edu torn watserv2 uwaterloo ca watserv1 watarts uwaterloo ca chudel from chris hudel subject 4 plane xt…
+  [3] doc_id=comp.windows.x_68301 P=1.0000 cat=comp.windows.x
+      xref cantaloupe srv cs cmu edu comp lang postscript 18577 comp windows x 68301 comp windows x apps 2765 comp text tex 30872 path cantaloupe srv cs cmu edu das news harvard edu noc near net howland res…
+  [4] doc_id=comp.windows.x_68299 P=1.0000 cat=comp.windows.x
+      newsgroups comp windows x path cantaloupe srv cs cmu edu das news harvard edu noc near net uunet das wang com wang news from gabi zodik subject wanted an interactive gui builder for x motif organizati…
+  [5] doc_id=comp.windows.x_67327 P=1.0000 cat=comp.windows.x
+      path cantaloupe srv cs cmu edu rochester udel darwin sura net howland reston ans net usc enterpoop mit edu internet news mail gateway from jose luis arana newsgroups comp windows x subject x graphics…
+
+Boundary documents (highest entropy in cluster 28):
+  [1] doc_id=comp.windows.x_67981 H=0.6779 cat=comp.windows.x
+      Top-2 cluster probs: C28: 0.587 | C7: 0.413
+      xref cantaloupe srv cs cmu edu comp os ms windows programmer tools 3446 comp windows x motif 17243 comp windows x 67981 path cantaloupe srv cs cmu edu magnesium club cc cmu edu eddie mit edu news mtho…
+  [2] doc_id=comp.windows.x_67426 H=0.6679 cat=comp.windows.x
+      Top-2 cluster probs: C28: 0.612 | C7: 0.388
+      xref cantaloupe srv cs cmu edu comp windows x motif 16881 comp windows x 67426 path cantaloupe srv cs cmu edu rochester udel gatech howland reston ans net zaphod mps ohio state edu cs utexas edu utnut…
+  [3] doc_id=comp.windows.x_67062 H=0.6503 cat=comp.windows.x
+      Top-2 cluster probs: C28: 0.645 | C7: 0.355
+      xref cantaloupe srv cs cmu edu comp windows x 67062 comp windows x apps 2510 comp windows x motif 16644 comp unix osf misc 187 path cantaloupe srv cs cmu edu magnesium club cc cmu edu news sei cmu edu…
+  [4] doc_id=comp.graphics_38626 H=0.6121 cat=comp.graphics
+      Top-2 cluster probs: C28: 0.699 | C7: 0.301
+      xref cantaloupe srv cs cmu edu comp os ms windows programmer misc 8907 comp os ms windows programmer tools 3194 comp graphics 38626 newsgroups comp os ms windows programmer misc comp os ms windows pro…
+  [5] doc_id=comp.windows.x_67110 H=0.6039 cat=comp.windows.x
+      Top-2 cluster probs: C28: 0.708 | C7: 0.292
+      xref cantaloupe srv cs cmu edu comp windows x 67110 comp windows x motif 16682 path cantaloupe srv cs cmu edu magnesium club cc cmu edu pitt edu uunet pipex uknet lsl snail from newsgroups comp window…
+
+────────────────────────────────────────────────────────────────────────────────
+CLUSTER 29  (367 documents as dominant)
+────────────────────────────────────────────────────────────────────────────────
+
+Category distribution (dominant-assigned docs):
+  alt.atheism                               191  (52.0%)  ██████████████████████████
+  talk.religion.misc                        163  (44.4%)  ██████████████████████
+  soc.religion.christian                      9  ( 2.5%)  █
+  talk.politics.misc                          3  ( 0.8%)  
+  sci.electronics                             1  ( 0.3%)  
+
+Core documents (highest P(cluster 29)):
+  [1] doc_id=talk.religion.misc_83949 P=1.0000 cat=talk.religion.misc
+      xref cantaloupe srv cs cmu edu talk abortion 120949 alt atheism 53593 talk religion misc 83949 path cantaloupe srv cs cmu edu crabapple srv cs cmu edu fs7 ece cmu edu europa eng gtefsd com howland res…
+  [2] doc_id=alt.atheism_54247 P=1.0000 cat=alt.atheism
+      newsgroups alt atheism path cantaloupe srv cs cmu edu crabapple srv cs cmu edu fs7 ece cmu edu europa eng gtefsd com howland reston ans net zaphod mps ohio state edu moe ksu ksu edu osuunx ucc okstate…
+  [3] doc_id=alt.atheism_54183 P=1.0000 cat=alt.atheism
+      xref cantaloupe srv cs cmu edu talk abortion 121571 alt atheism 54183 talk religion misc 84369 path cantaloupe srv cs cmu edu das news harvard edu noc near net uunet pipex ibmpcug mantis news from mat…
+  [4] doc_id=alt.atheism_53349 P=1.0000 cat=alt.atheism
+      newsgroups alt atheism path cantaloupe srv cs cmu edu das news harvard edu noc near net howland reston ans net torn watserv2 uwaterloo ca cicadas watstar uwaterloo ca gmills from phil trodwell subject…
+  [5] doc_id=alt.atheism_54187 P=1.0000 cat=alt.atheism
+      xref cantaloupe srv cs cmu edu alt atheism 54187 talk religion misc 84371 path cantaloupe srv cs cmu edu das news harvard edu noc near net uunet pipex ibmpcug mantis news from mathew newsgroups alt at…
+
+Boundary documents (highest entropy in cluster 29):
+  [1] doc_id=alt.atheism_53161 H=0.0004 cat=alt.atheism
+      Top-2 cluster probs: C29: 1.000 | C10: 0.000
+      path cantaloupe srv cs cmu edu das news harvard edu noc near net uunet news claremont edu nntp server caltech edu keith from keith allan schneider newsgroups alt atheism subject re political atheists…
+  [2] doc_id=talk.religion.misc_84190 H=0.0000 cat=talk.religion.misc
+      Top-2 cluster probs: C29: 1.000 | C10: 0.000
+      xref cantaloupe srv cs cmu edu alt atheism 53902 talk religion misc 84190 path cantaloupe srv cs cmu edu crabapple srv cs cmu edu fs7 ece cmu edu europa eng gtefsd com howland reston ans net gatech us…
+  [3] doc_id=talk.religion.misc_83468 H=0.0000 cat=talk.religion.misc
+      Top-2 cluster probs: C29: 1.000 | C10: 0.000
+      xref cantaloupe srv cs cmu edu talk abortion 120381 alt atheism 52952 talk religion misc 83468 newsgroups talk abortion alt atheism talk religion misc path cantaloupe srv cs cmu edu das news harvard e…
+  [4] doc_id=talk.religion.misc_83573 H=0.0000 cat=talk.religion.misc
+      Top-2 cluster probs: C29: 1.000 | C10: 0.000
+      xref cantaloupe srv cs cmu edu alt atheism 53115 talk religion misc 83573 talk origins 40872 newsgroups alt atheism talk religion misc talk origins path cantaloupe srv cs cmu edu das news harvard edu…
+  [5] doc_id=alt.atheism_53115 H=0.0000 cat=alt.atheism
+      Top-2 cluster probs: C29: 1.000 | C10: 0.000
+      xref cantaloupe srv cs cmu edu alt atheism 53115 talk religion misc 83573 talk origins 40872 newsgroups alt atheism talk religion misc talk origins path cantaloupe srv cs cmu edu das news harvard edu…
+
+================================================================================
+GLOBAL UNCERTAINTY ANALYSIS
+================================================================================
+
+High-entropy documents (H > 70% of max=3.40): 0 (0.0%)
+These are the corpus' genuinely ambiguous documents:
+
+  [1] doc_id=soc.religion.christian_21396 H=0.9752 cat=soc.religion.christian
+       Distribution: C23: 0.554 | C10: 0.291 | C3: 0.155
+       path cantaloupe srv cs cmu edu das news harvard edu noc near net howland reston ans net newsserver jvnc net rutgers igor rutgers edu athos rutgers edu christian from newsgroups soc religion christian subject god morality and massacres message id date 9 may 93 09 42 21 gmt sender lines 258 approved a…
+
+  [2] doc_id=alt.atheism_54185 H=0.9175 cat=alt.atheism
+       Distribution: C10: 0.489 | C3: 0.430 | C23: 0.082
+       path cantaloupe srv cs cmu edu das news harvard edu noc near net uunet pipex ibmpcug mantis news from mathew newsgroups alt atheism subject re cults vs religions message id date mon 26 apr 1993 15 05 26 0100 references organization mantis consultants cambridge uk x newsreader rusnews v1 02 lines 10…
+
+  [3] doc_id=talk.religion.misc_84015 H=0.8490 cat=talk.religion.misc
+       Distribution: C25: 0.587 | C23: 0.352 | C1: 0.060
+       xref cantaloupe srv cs cmu edu sci skeptic 43567 talk politics misc 179128 talk religion misc 84015 misc legal 61062 newsgroups sci skeptic talk politics misc talk religion misc misc legal path cantaloupe srv cs cmu edu rochester udel wupost howland reston ans net noc near net uunet news cs jhu edu…
+
+  [4] doc_id=comp.sys.mac.hardware_51540 H=0.8256 cat=comp.sys.mac.hardware
+       Distribution: C14: 0.659 | C5: 0.263 | C27: 0.078
+       path cantaloupe srv cs cmu edu crabapple srv cs cmu edu bb3 andrew cmu edu news sei cmu edu cis ohio state edu zaphod mps ohio state edu darwin sura net guvax acc georgetown edu hew from newsgroups comp sys mac hardware subject monitor shut down on 13 hi res message id date 15 apr 93 18 35 27 0400 o…
+
+  [5] doc_id=talk.religion.misc_84265 H=0.7697 cat=talk.religion.misc
+       Distribution: C3: 0.641 | C10: 0.323 | C23: 0.036
+       xref cantaloupe srv cs cmu edu alt magick 10049 alt pagan 29953 talk religion misc 84265 path cantaloupe srv cs cmu edu das news harvard edu noc near net howland reston ans net usc sdd hp com portal cup portal com thyagi from thyagi morgoth nagasiva newsgroups alt magick alt pagan talk religion misc…
+
+  [6] doc_id=comp.sys.ibm.pc.hardware_60211 H=0.7209 cat=comp.sys.ibm.pc.hardware
+       Distribution: C27: 0.511 | C7: 0.484 | C0: 0.005
+       path cantaloupe srv cs cmu edu crabapple srv cs cmu edu fs7 ece cmu edu europa eng gtefsd com howland reston ans net zaphod mps ohio state edu malgudi oar net uoft02 utoledo edu cscon101 from newsgroups comp sys ibm pc hardware subject 1 800 832 4778 western digital no reply message id date 15 apr 9…
+
+  [7] doc_id=comp.sys.mac.hardware_51973 H=0.7053 cat=comp.sys.mac.hardware
+       Distribution: C27: 0.520 | C18: 0.478 | C0: 0.002
+       path cantaloupe srv cs cmu edu crabapple srv cs cmu edu bb3 andrew cmu edu news sei cmu edu cis ohio state edu zaphod mps ohio state edu cs utexas edu uunet comp vuw ac nz zephyr grace cri nz zephyr grace cri nz usenet from newsgroups comp sys mac hardware subject computer component source inc phone…
+
+  [8] doc_id=sci.electronics_53861 H=0.6931 cat=sci.electronics
+       Distribution: C27: 0.502 | C14: 0.498 | C18: 0.000
+       xref cantaloupe srv cs cmu edu sci electronics 53861 comp theory 7169 path cantaloupe srv cs cmu edu rochester rochester udel darwin sura net emory ogicse netnews nwnet net news u washington edu carson u washington edu whit from john whitmore newsgroups sci electronics comp theory subject re minimal…
+
+  [9] doc_id=talk.politics.guns_53298 H=0.6931 cat=talk.politics.guns
+       Distribution: C1: 0.506 | C25: 0.494 | C23: 0.000
+       xref cantaloupe srv cs cmu edu talk politics guns 53298 alt activism 42364 soc culture usa 13515 newsgroups talk politics guns alt activism soc culture usa path cantaloupe srv cs cmu edu crabapple srv cs cmu edu fs7 ece cmu edu europa eng gtefsd com howland reston ans net noc near net uunet decwrl n…
+
+  [10] doc_id=sci.electronics_53572 H=0.6928 cat=sci.electronics
+       Distribution: C0: 0.514 | C18: 0.486 | C27: 0.000
+       path cantaloupe srv cs cmu edu das news harvard edu ogicse emory gatech hubcap ncrcae toontown craig from craig s williamson newsgroups sci electronics subject re looking for a good spice book message id date 15 apr 93 20 50 32 gmt article i d toontown 627 references reply to craig s williamson orga…

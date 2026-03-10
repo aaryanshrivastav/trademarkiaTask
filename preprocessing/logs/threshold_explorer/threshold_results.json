@@ -1,0 +1,212 @@
+{
+  "pair_similarities": [
+    {
+      "query_a": "What caused the space shuttle Challenger disaster?",
+      "query_b": "Why did the Challenger shuttle explode?",
+      "relationship": "paraphrase",
+      "similarity": 0.8262
+    },
+    {
+      "query_a": "How does the immune system fight viruses?",
+      "query_b": "What is the mechanism by which the immune system responds to viral infections?",
+      "relationship": "paraphrase",
+      "similarity": 0.8531
+    },
+    {
+      "query_a": "Is there life on other planets?",
+      "query_b": "Do extraterrestrial organisms exist in the universe?",
+      "relationship": "paraphrase",
+      "similarity": 0.6341
+    },
+    {
+      "query_a": "What are the gun control laws in the United States?",
+      "query_b": "Tell me about firearm regulations in America.",
+      "relationship": "paraphrase",
+      "similarity": 0.8234
+    },
+    {
+      "query_a": "How do I configure a Linux network interface?",
+      "query_b": "What command do I use to set up networking on Linux?",
+      "relationship": "paraphrase",
+      "similarity": 0.7902
+    },
+    {
+      "query_a": "What is the best graphics card for gaming?",
+      "query_b": "Which GPU should I buy for playing video games?",
+      "relationship": "paraphrase",
+      "similarity": 0.8257
+    },
+    {
+      "query_a": "How does encryption work?",
+      "query_b": "Can you explain how data encryption algorithms function?",
+      "relationship": "paraphrase",
+      "similarity": 0.8023
+    },
+    {
+      "query_a": "What caused the space shuttle Challenger disaster?",
+      "query_b": "How does the space shuttle's main engine work?",
+      "relationship": "adjacent",
+      "similarity": 0.3821
+    },
+    {
+      "query_a": "What are the gun control laws in the United States?",
+      "query_b": "What is the second amendment?",
+      "relationship": "adjacent",
+      "similarity": 0.4725
+    },
+    {
+      "query_a": "How do I install Ubuntu on my laptop?",
+      "query_b": "How do I configure a Linux network interface?",
+      "relationship": "adjacent",
+      "similarity": 0.1073
+    },
+    {
+      "query_a": "What are the symptoms of HIV?",
+      "query_b": "How does the immune system fight viruses?",
+      "relationship": "adjacent",
+      "similarity": 0.3239
+    },
+    {
+      "query_a": "What is the best graphics card for gaming?",
+      "query_b": "How much RAM does a gaming PC need?",
+      "relationship": "adjacent",
+      "similarity": 0.5491
+    },
+    {
+      "query_a": "What caused the space shuttle Challenger disaster?",
+      "query_b": "What are the gun control laws in the United States?",
+      "relationship": "unrelated",
+      "similarity": -0.0141
+    },
+    {
+      "query_a": "How does encryption work?",
+      "query_b": "Is there life on other planets?",
+      "relationship": "unrelated",
+      "similarity": -0.0551
+    },
+    {
+      "query_a": "What is the best graphics card for gaming?",
+      "query_b": "How does the immune system fight viruses?",
+      "relationship": "unrelated",
+      "similarity": 0.0666
+    },
+    {
+      "query_a": "How do I configure a Linux network interface?",
+      "query_b": "What are the gun control laws in the United States?",
+      "relationship": "unrelated",
+      "similarity": 0.1376
+    }
+  ],
+  "threshold_metrics": [
+    {
+      "tau": 0.5,
+      "paraphrase_recall": 1.0,
+      "adjacent_fp_rate": 0.2,
+      "unrelated_fp_rate": 0.0,
+      "overall_precision": 0.875,
+      "total_hits": 8,
+      "paraphrase_hits": 7,
+      "adjacent_hits": 1,
+      "unrelated_hits": 0
+    },
+    {
+      "tau": 0.6,
+      "paraphrase_recall": 1.0,
+      "adjacent_fp_rate": 0.0,
+      "unrelated_fp_rate": 0.0,
+      "overall_precision": 1.0,
+      "total_hits": 7,
+      "paraphrase_hits": 7,
+      "adjacent_hits": 0,
+      "unrelated_hits": 0
+    },
+    {
+      "tau": 0.7,
+      "paraphrase_recall": 0.857,
+      "adjacent_fp_rate": 0.0,
+      "unrelated_fp_rate": 0.0,
+      "overall_precision": 1.0,
+      "total_hits": 6,
+      "paraphrase_hits": 6,
+      "adjacent_hits": 0,
+      "unrelated_hits": 0
+    },
+    {
+      "tau": 0.75,
+      "paraphrase_recall": 0.857,
+      "adjacent_fp_rate": 0.0,
+      "unrelated_fp_rate": 0.0,
+      "overall_precision": 1.0,
+      "total_hits": 6,
+      "paraphrase_hits": 6,
+      "adjacent_hits": 0,
+      "unrelated_hits": 0
+    },
+    {
+      "tau": 0.8,
+      "paraphrase_recall": 0.714,
+      "adjacent_fp_rate": 0.0,
+      "unrelated_fp_rate": 0.0,
+      "overall_precision": 1.0,
+      "total_hits": 5,
+      "paraphrase_hits": 5,
+      "adjacent_hits": 0,
+      "unrelated_hits": 0
+    },
+    {
+      "tau": 0.85,
+      "paraphrase_recall": 0.143,
+      "adjacent_fp_rate": 0.0,
+      "unrelated_fp_rate": 0.0,
+      "overall_precision": 1.0,
+      "total_hits": 1,
+      "paraphrase_hits": 1,
+      "adjacent_hits": 0,
+      "unrelated_hits": 0
+    },
+    {
+      "tau": 0.88,
+      "paraphrase_recall": 0.0,
+      "adjacent_fp_rate": 0.0,
+      "unrelated_fp_rate": 0.0,
+      "overall_precision": 0.0,
+      "total_hits": 0,
+      "paraphrase_hits": 0,
+      "adjacent_hits": 0,
+      "unrelated_hits": 0
+    },
+    {
+      "tau": 0.9,
+      "paraphrase_recall": 0.0,
+      "adjacent_fp_rate": 0.0,
+      "unrelated_fp_rate": 0.0,
+      "overall_precision": 0.0,
+      "total_hits": 0,
+      "paraphrase_hits": 0,
+      "adjacent_hits": 0,
+      "unrelated_hits": 0
+    },
+    {
+      "tau": 0.92,
+      "paraphrase_recall": 0.0,
+      "adjacent_fp_rate": 0.0,
+      "unrelated_fp_rate": 0.0,
+      "overall_precision": 0.0,
+      "total_hits": 0,
+      "paraphrase_hits": 0,
+      "adjacent_hits": 0,
+      "unrelated_hits": 0
+    },
+    {
+      "tau": 0.95,
+      "paraphrase_recall": 0.0,
+      "adjacent_fp_rate": 0.0,
+      "unrelated_fp_rate": 0.0,
+      "overall_precision": 0.0,
+      "total_hits": 0,
+      "paraphrase_hits": 0,
+      "adjacent_hits": 0,
+      "unrelated_hits": 0
+    }
+  ]
+}

@@ -39,7 +39,6 @@ preprocessing/chroma_store/
 *.bin
 
 # Logs
-preprocessing/logs/
 *.log
 
 # Models

@@ -1,0 +1,39 @@
+
+================================================================================
+THRESHOLD EXPLORATION REPORT
+================================================================================
+
+PAIR SIMILARITIES (sorted by relationship):
+  Relationship    Sim  Query A → Query B
+  ────────────────────────────────────────────────────────────────────────────
+  ✓ paraphrase  0.8262  What caused the space shuttle Challeng ↔ Why did the Challenger shuttle explode
+  ✓ paraphrase  0.8531  How does the immune system fight virus ↔ What is the mechanism by which the imm
+  ✓ paraphrase  0.6341  Is there life on other planets?        ↔ Do extraterrestrial organisms exist in
+  ✓ paraphrase  0.8234  What are the gun control laws in the U ↔ Tell me about firearm regulations in A
+  ✓ paraphrase  0.7902  How do I configure a Linux network int ↔ What command do I use to set up networ
+  ✓ paraphrase  0.8257  What is the best graphics card for gam ↔ Which GPU should I buy for playing vid
+  ✓ paraphrase  0.8023  How does encryption work?              ↔ Can you explain how data encryption al
+  ~ adjacent    0.3821  What caused the space shuttle Challeng ↔ How does the space shuttle's main engi
+  ~ adjacent    0.4725  What are the gun control laws in the U ↔ What is the second amendment?
+  ~ adjacent    0.1073  How do I install Ubuntu on my laptop?  ↔ How do I configure a Linux network int
+  ~ adjacent    0.3239  What are the symptoms of HIV?          ↔ How does the immune system fight virus
+  ~ adjacent    0.5491  What is the best graphics card for gam ↔ How much RAM does a gaming PC need?
+  ✗ unrelated   -0.0141  What caused the space shuttle Challeng ↔ What are the gun control laws in the U
+  ✗ unrelated   -0.0551  How does encryption work?              ↔ Is there life on other planets?
+  ✗ unrelated   0.0666  What is the best graphics card for gam ↔ How does the immune system fight virus
+  ✗ unrelated   0.1376  How do I configure a Linux network int ↔ What are the gun control laws in the U
+
+
+THRESHOLD BEHAVIOUR TABLE:
+      τ   Para Recall   Adj FP Rate   Unrel FP Rate   Precision  Interpretation
+  ──────────────────────────────────────────────────────────────────────────────────────────
+   0.50         1.000         0.200           0.000       0.875  ✓ GOOD — paraphrases hit, distinct queries miss
+   0.60         1.000         0.000           0.000       1.000  ✓ GOOD — paraphrases hit, distinct queries miss
+   0.70         0.857         0.000           0.000       1.000  ✓ GOOD — paraphrases hit, distinct queries miss
+   0.75         0.857         0.000           0.000       1.000  ✓ GOOD — paraphrases hit, distinct queries miss
+   0.80         0.714         0.000           0.000       1.000  ✓ GOOD — paraphrases hit, distinct queries miss
+   0.85         0.143         0.000           0.000       1.000  ✗ Too strict — paraphrases miss the cache
+   0.88         0.000         0.000           0.000       0.000  ✗ Too strict — paraphrases miss the cache
+   0.90         0.000         0.000           0.000       0.000  ✗ Too strict — paraphrases miss the cache
+   0.92         0.000         0.000           0.000       0.000  ✗ Too strict — paraphrases miss the cache
+   0.95         0.000         0.000           0.000       0.000  ✗ Too strict — paraphrases miss the cache

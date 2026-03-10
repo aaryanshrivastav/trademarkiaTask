@@ -37,15 +37,15 @@ import logging
 import os
 from typing import List, Dict, Any, Optional
 
+# Disable ChromaDB telemetry BEFORE importing chromadb
+os.environ["ANONYMIZED_TELEMETRY"] = "False"
+
 import numpy as np
 import chromadb
 from chromadb.config import Settings
 
 from config import CHROMA_DIR, CHROMA_COLLECTION
 from data_loader import Document
-
-# Disable ChromaDB telemetry to avoid errors
-os.environ["ANONYMIZED_TELEMETRY"] = "False"
 
 logger = logging.getLogger(__name__)
 

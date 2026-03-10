@@ -14,6 +14,10 @@ Usage:
     python pipeline_component1.py --reset    # wipe and re-ingest
 """
 
+# Disable ChromaDB telemetry before any imports
+import os
+os.environ["ANONYMIZED_TELEMETRY"] = "False"
+
 import argparse
 import json
 import logging

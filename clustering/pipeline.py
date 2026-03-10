@@ -18,6 +18,10 @@ Usage:
     python pipeline_component2.py --skip-analysis  # skip plots (faster)
 """
 
+# Disable ChromaDB telemetry before any imports
+import os
+os.environ["ANONYMIZED_TELEMETRY"] = "False"
+
 import argparse
 import json
 import logging
@@ -76,7 +80,7 @@ def run_pipeline(
     if not EMBEDDINGS_PATH.exists():
         raise FileNotFoundError(
             f"Embeddings not found at {EMBEDDINGS_PATH}. "
-            "Run pipeline_component1.py first."
+            "Run preprocessing\\pipeline.py first."
         )
 
     embeddings = np.load(EMBEDDINGS_PATH)
